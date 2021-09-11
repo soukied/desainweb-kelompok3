@@ -1,5 +1,20 @@
 h1 {
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(9, 156, 9);
+    padding: 2%;
 
+}
+
+ul.navigasi>li{
+    list-style: none;
+    background-color: cyan;
+    display: inline-block;
+    padding-left: 0px;
+    font-size: 20px;
+    border: black;
+    margin: 50px;
+}
+ul.navigasi>li>a{
+    color:black;
+    
 }
