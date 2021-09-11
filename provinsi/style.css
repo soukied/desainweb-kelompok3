@@ -1,6 +1,8 @@
-img{
-    width: 50%;
-    height: 50%;
+img.logo{
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: 25%;
 }
 body{
     background-color: burlywood;
@@ -17,13 +19,28 @@ ul.navigasi>li{
     list-style: none;
     background-color: rgb(9, 156, 9);
     display: inline-block;
-    margin: 0px;
     padding: 50px;
-    font-size: 50px;
+    font-size: 40px;
     margin: 50px;
+    border-style: solid;
 
 }
 ul.navigasi>li>a{
     color:white;
     
 }
+.kembali{
+    background-color: rgb(9, 156, 9);
+    display: inline-block;
+    padding: 10px;
+    font-size: 30px;
+    margin: 50px;
+    border-style: solid;
+    border-color: black;
+    color: white;
+    margin: auto;
+
+}
+
+
+
