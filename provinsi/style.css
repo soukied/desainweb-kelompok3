@@ -1,6 +1,7 @@
 img.logo{
     display: block;
     margin: auto;
+    padding-left: 100px;
     width: 25%;
     height: 25%;
 }
