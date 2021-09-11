@@ -1,6 +1,8 @@
-img{
-    width: 50%;
-    height: 50%;
+img.logo{
+    display: block;
+    margin: auto;
+    width: 25%;
+    height: 25%;
 }
 body{
     background-color: burlywood;
@@ -9,7 +11,9 @@ body{
 h1 {
     color: white;
     background-color: rgb(9, 156, 9);
-    padding: 2%;
+    padding: 50px;
+    padding-left: 50px;
+    font-size: 60px;
 
 }
 
@@ -17,13 +21,25 @@ ul.navigasi>li{
     list-style: none;
     background-color: rgb(9, 156, 9);
     display: inline-block;
-    margin: 0px;
     padding: 50px;
-    font-size: 50px;
+    font-size: 40px;
     margin: 50px;
+    border-style: solid;
+    margin-left: 15%;
 
 }
 ul.navigasi>li>a{
     color:white;
     
 }
+
+a.kembali>svg{
+    color:black;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+
