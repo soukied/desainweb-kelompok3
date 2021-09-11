@@ -11,7 +11,9 @@ body{
 h1 {
     color: white;
     background-color: rgb(9, 156, 9);
-    padding: 2%;
+    padding: 50px;
+    padding-left: 50px;
+    font-size: 60px;
 
 }
 
@@ -23,22 +25,19 @@ ul.navigasi>li{
     font-size: 40px;
     margin: 50px;
     border-style: solid;
+    margin-left: 15%;
 
 }
 ul.navigasi>li>a{
     color:white;
     
 }
-.kembali{
-    background-color: rgb(9, 156, 9);
-    display: inline-block;
-    padding: 10px;
-    font-size: 30px;
-    margin: 50px;
-    border-style: solid;
-    border-color: black;
-    color: white;
-    margin: auto;
+
+a.kembali>svg{
+    color:black;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
 
 }
 
