@@ -19,10 +19,10 @@
 
 .conten > ul {
     background-color: rgb(75, 199, 71);
-    margin: 0em auto;
+    margin: 2em auto;
     padding: 2em 0em;
     width: 80%;
-    border-radius: 1em;
+    border-radius: 2em;
 }
 
 div.header {
@@ -30,7 +30,7 @@ div.header {
     align-items: center;
     justify-content: center;
     /* text-align: center; */
-    margin-bottom: 2em;
+    margin-bottom: 0em;
 }
 
 div.header > h1 {
@@ -40,4 +40,14 @@ div.header > h1 {
 
 div.header > img {
     display: inline;
+}
+
+div.banner {
+    text-align: center;
+}
+
+div.banner>img {
+    margin: 0em auto;
+    display: inline;
+    width: 10%;
 }
