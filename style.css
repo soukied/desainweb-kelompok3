@@ -1,24 +1,22 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+
 }
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
+body{
+    background-image: url("indonesia.jpg");
+    height: 100vh;
     background-size: cover;
-    position: relative;
-}
-nav{
-    display: flex;
-    padding: 2% 6;
-
-}
-.nav img{
-    width: 50px;
-}
-.nav-links{
-    flex: 1;
-    text-align:right;
+    background-position: center;
 }
 
+ul{
+    list-style-type: none;
+    padding: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    margin-left: 20px;
+
+}
