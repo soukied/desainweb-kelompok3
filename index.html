@@ -1,36 +1,52 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
 	<head>
-		<link rel="stylesheet" href="style.css">
 		<title>BORNEO CULTURE WIKI</title>
-	</head>
+		<link rel="stylesheet" href="/styles/global.css">
+		<script async src="/scripts/shift.js"></script>
+		<script type="text/javascript" src="https://cdn.githubraw.com/blueimp/JavaScript-MD5/2c00da94/js/md5.min.js"></script>
+		<script src="/scripts/login.js"></script>
+		<script async src="/scripts/search.js"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 		
-	<body>
-		<h1 style="">Budaya Provinsi Kalimantan</h1>	
-		<img src="Borneo.jpeg" width="150" alt="">
-		<ul>
-			<li>
-				<a href="#">About</a></li>
-			<li>
-				<a href="provinsi/kalimantan-timur.html">Kalimantan Timur</a>
-			</li>
+	</head>
+	
+	<body style="margin: 0;">
+		<link rel="stylesheet" href="/styles/index.css">
+		<link rel="stylesheet" href="/styles/header.css">
+		<div class="header">
+			<img src="Borneo.png" width="80" alt="">
+			<h1><a style="color: black; text-decoration: transparent;" href="/"> Borneo Culture Wiki </a></h1>	
+			<input id="query-search" onkeypress="querySearch(event)" placeholder="Pencarian..." type="search">
+		</div>
+		<div class="banner"><img src="kalimantan.png" alt="Peta Kalimantan"></div>
+		<div class="conten" style="text-align: center;">
+			<ul>
+				<li>
+					<a tujuan="about.html">About</a></li>
+				<li>
+					<a tujuan="provinsi/kalimantan-timur.html">Kalimantan Timur</a>
+				</li>
+	
+				<li>
+					<a tujuan="provinsi/kalimantan-barat.html">Kalimantan Barat</a>
+				</li>
+	
+				<li>
+					<a tujuan="provinsi/kalimantan-tengah.html">Kalimantan Tengah</a>
+				</li>
+	
+				<li>
+					<a tujuan="provinsi/kalimantan-selatan.html">Kalimantan Selatan</a>
+				</li>
+	
+				<li>
+					<a tujuan="provinsi/kalimantan-utara.html">Kalimantan Utara</a>
+				</li>
+			</ul>
+			<script>
 
-			<li>
-				<a href="provinsi/kalimantan-barat.html">Kalimantan Barat</a>
-			</li>
-
-			<li>
-				<a href="provinsi/kalimantan-tengah.html">Kalimantan Tengah</a>
-			</li>
-
-			<li>
-				<a href="provinsi/kalimantan-selatan.html">Kalimantan Selatan</a>
-			</li>
-
-			<li>
-				<a href="provinsi/kalimantan-utara.html">Kalimantan Utara</a>
-			</li>
-		</ul>
+			</script>
+		</div>
 		</body>
 </html>

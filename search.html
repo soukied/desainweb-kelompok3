@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="/styles/header.css">
+<link rel="stylesheet" href="/styles/search.css">
+<div class="header">
+    <img src="Borneo.png" width="80" alt="">
+    <h1><a style="color: black; text-decoration: transparent;" href="/"> Borneo Culture Wiki </a></h1>	
+    <input id="query-search" onkeypress="querySearch(event)" value="${query}" placeholder="Pencarian..." type="search">
+</div>
+<div class="content">
+    <h3>Pencarian '${query}'</h3>
+    ${results}
+</div>

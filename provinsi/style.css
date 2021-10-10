@@ -1,35 +1,52 @@
+body {
+    background-color: #fffdd0;;
+}
+.top{
+    margin-bottom: 25px;
+    /* text-align: center; */
+}
 img.logo{
     display: block;
     margin: auto;
-    padding-left: 100px;
-    width: 25%;
-    height: 25%;
+    /* width: 10%; */
+    height: 160px;
 }
-body{
-    background-color: burlywood;
-    font-family: 'Slabo 27px', serif;
+.foto{
+    display: block;
+    margin: 50px;
+    padding-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 60%;
 }
-h1 {
-    color: white;
-    background-color: rgb(9, 156, 9);
-    padding: 50px;
-    padding-left: 50px;
-    font-size: 60px;
+.conten{
+    /* background-color: rgb(0, 165, 0); */
+    margin-left: -20px;
+    margin-right: -20px;
+}
+/* h1 {
+    color:black;
+    font-size: 50px;
+
+} */
+/* body{
+    overflow-x: hidden;
+} */
+body>.conten{
 
 }
 ul.navigasi>li{
     list-style: none;
-    background-color: rgb(9, 156, 9);
     display: inline-block;
-    padding: 50px;
-    font-size: 40px;
-    margin: 50px;
-    border-style: solid;
+    padding-top: 5%;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     margin-left: 15%;
 
 }
 ul.navigasi>li>a{
-    color:white;
+    color:black;
     
 }
 
@@ -41,5 +58,27 @@ a.kembali>svg{
 
 }
 
+.conten > ul > li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.conten > ul > li > a {
+    color : white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.conten > ul > li > a:hover {
+    color:rgb(216, 216, 216);
+}
+
+.conten > ul {
+    background-color: rgb(75, 199, 71);
+    margin: 2em auto;
+    padding: 2em 0em;
+    width: 60%;
+    border-radius: 1em;
+}
 
 
