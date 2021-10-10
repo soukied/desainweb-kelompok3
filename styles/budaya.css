@@ -1,8 +1,16 @@
 body {
-    text-align: center;
-    background-color: gray;
+    text-align: justify;
+    background-color: #fffdd0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     font-style: normal;
     font-variant: normal;
+}
+
+h1.title {
+    text-align: center;
+}
+
+div.container {
+    margin: 0 6em;
 }

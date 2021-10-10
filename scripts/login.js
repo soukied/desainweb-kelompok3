@@ -10,8 +10,10 @@ function loginData(username, password) {
             break;
         }
     }
-    if (success)
-        alert("Berhasil Login!!");
+    if (success){
+        alert("Berhasil Login!");
+        localStorage.setItem("isLoggedIn", true);
+    }
     else
         alert("Password anda salah!");
 }
