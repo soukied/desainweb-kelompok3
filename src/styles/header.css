@@ -17,6 +17,10 @@ div.header {
     margin: 0 0 2em 0;
 }
 
+div.header > h1:hover {
+    text-decoration: line-through;
+}
+
 div.header > * {
     display: block;
     float: left;
