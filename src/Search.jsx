@@ -6,7 +6,7 @@ import './styles/search.css';
 export default function Search(props) {
     const {query} = useParams();
     return (<>
-        <Header history={props.history}>Borneo Culture Wiki</Header>
+        <Header history={props.history}>Pencarian</Header>
         <div className="content">
             <h3>Pencarian {query}</h3>
             {

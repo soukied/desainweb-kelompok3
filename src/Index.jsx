@@ -19,7 +19,7 @@ export default class Index extends React.Component {
     render() {
         return (<>
             <Header history={this.props.history}>Borneo Culture Wiki</Header>
-            <div className="banner"><img src="kalimantan.png" alt="Peta Kalimantan"/></div>
+            <div className="banner"><img src="/images/kalimantan.png" alt="Peta Kalimantan"/></div>
 	    	<div className="conten" style={{textAlign: 'center'}}>
 			<ul>
 				<li>

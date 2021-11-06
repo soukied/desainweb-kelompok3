@@ -11,7 +11,7 @@ export default class Header extends React.Component {
     }
     render() {
         return (<div className="header">
-            <img src="Borneo.png" width="80" alt=""/>
+            <img src={this.props.lambang ? this.props.lambang : "/Borneo.png"} width="80" alt=""/>
             <h1><Link style={{color:"black",textDecoration:"transparent"}} to="/"> {this.props.children} </Link></h1>	
             <input onChange={ev=>{
                 this.setState({value:ev.target.value});
