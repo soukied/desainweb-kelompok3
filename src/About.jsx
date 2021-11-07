@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Header from "./Header";
+import Footer from './Footer';
 import './styles/about.css'
 
 export default function About(props) {
+    useEffect(()=>{
+        document.title = "About | Borneo Culture Wiki";
+    },[]);
     return (<>
         <Header history={props.history}>About</Header>
         <img className= "logoabout" src="Borneo.png"/>
@@ -24,5 +28,6 @@ export default function About(props) {
             <li>Nirvana dede Aditiya</li>
         </ul>
         </div>
+        
     </>);
 }

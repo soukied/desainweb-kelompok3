@@ -9,15 +9,18 @@ import About from "./About";
 import "./styles/global.css"
 import Search from "./Search";
 import Login from "./Login";
+import Footer from "./Footer";
 
 let Main = () => (
     <Router>
-        <Route exact path="/" component={Index}/>
-        <Route exact path="/provinsi/:prov" component={Provinsi}/>
-        <Route exact path="/budaya/:nama" component={Budaya}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/search/:query" component={Search}/>
-        <Route exact path="/login" component={Login}/>
+        <div>
+            <Route exact path="/" component={Index}/>
+            <Route exact path="/provinsi/:prov" component={Provinsi}/>
+            <Route exact path="/budaya/:nama" component={Budaya}/>
+            <Route exact path="/about" component={About}/>
+            <Route exact path="/search/:query" component={Search}/>
+            <Route exact path="/login" component={Login}/>
+        </div>
     </Router>
 );
 

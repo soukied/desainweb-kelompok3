@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import dataCulture from './data/index';
 import Header from "./Header";
 import "./styles/budaya.css";
 import data from './data/index';
@@ -11,6 +10,7 @@ function nameToData(name) {
             if (name == `${type}-adat-kalimantan-${prov}`) {
                 let provData = data[`kalimantan-${prov}`];
                 return {
+                    back: `/provinsi/kalimantan-${prov}`,
                     logo: provData.logo,
                     title: provData.title,
                     content: provData[`${type}-adat`]
@@ -22,10 +22,11 @@ function nameToData(name) {
 
 export default function Budaya(props) {
     const {nama} = useParams();
-    console.log(nameToData(nama));
-    const {data, setData} = useState(nameToData(nama));
+    useEffect(()=>{
+        document.title = `${nameToData(nama).judul} | Borneo Culture Wiki`;
+    }, []);
     return(<>
-        <Header lambang={nameToData(nama).logo} history={props.history}> Provinsi {nameToData(nama).title} </Header>
+        <Header to={nameToData(nama).back} lambang={nameToData(nama).logo} history={props.history}> {nameToData(nama).content.judul} </Header>
         <h1 className="title"> {nameToData(nama).judul} </h1>
         <div className="container">
             <div className="banner" style={{textAlign:"center"}}>

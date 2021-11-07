@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import Header from "./Header";
 import './styles/provinsi.css'
 import data from './data/index';
+import Footer from "./Footer";
 
 export default function Provinsi(props) {
     const {prov} = useParams();
-    // const {data, setData} = useState(dataCulture);
-    const {nama, setNama} = useState("");
-    let s = <Link to='/budaya'>S</Link>
-    
+    useEffect(()=>{
+        document.title = `Provinsi ${data[prov]['title']}`
+    },[]);
     return (
         <>
         <Header lambang={data[prov]['logo']} history={props.history}>Provinsi {data[prov]['title']}</Header>
@@ -30,6 +30,7 @@ export default function Provinsi(props) {
 			</ul>
 			<br/>
 		</div>
+        
         </>
     );           
 }
