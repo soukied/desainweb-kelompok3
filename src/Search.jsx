@@ -11,17 +11,17 @@ function queryData(query) {
         ['baju','tari','rumah'].forEach(b=>{
             let qData = data[`kalimantan-${p}`][`${b}-adat`];
             // console.log(qData);
-            if (qData.judul.includes(query)) {
-                ret.push(qData);
+            if (qData.judul.toLowerCase().includes(query)) {
+                ret.push({...qData, url:`/budaya/${b}-adat-kalimantan-${p}`});
             } else if (qData.paragraf instanceof Array) {
                 for (let text of qData.paragraf) {
-                    if (text.includes(query)) {
-                        ret.push(qData);
+                    if (text.toLowerCase().includes(query)) {
+                        ret.push({...qData, url:`/budaya/${b}-adat-kalimantan-${p}`})
                         break;
                     }
                 }
-            } else if (typeof qData.paragraf == "string" && qData.paragraf.includes(query))
-                ret.push(qData);
+            } else if (typeof qData.paragraf == "string" && qData.paragraf.toLowerCase().includes(query))
+                ret.push({...qData, url:`/budaya/${b}-adat-kalimantan-${p}`})
         });
     });
     return ret;
@@ -35,27 +35,25 @@ export default function Search(props) {
 
     useEffect(()=>{
         document.title = `Search '${query}' | Borneo Culture Wiki`;
-        setVal(queryData(query));
-    });
+    },[]);
+
+    useEffect(()=>{
+        setVal(queryData(query.toLowerCase()));
+    },[val]);
 
     return (<>
-        <Header history={props.history}>Pencarian</Header>
+        <Header history={props.history}>Pencarian '{query}'</Header>
         <div className="content">
-            <h3>Pencarian {count} {query}</h3>
+            <h3 onClick={()=>{console.log(val)}}> {val.length > 0 ? `${val.length} hasil pencarian` : "Pencarian tidak ditemukan"}</h3>
             {
-                val.map(val=>{
-                    <>
-                    <div className="container">
-                    <Link to={`/budaya/${val.namespace}`} style="display:block"> {val.title} </Link>
-                    <img src={val.imgSrc} style={{height:'50px',display:'block'}} alt={val.imgTitle}/>
-                </div>
-                    </>
+                [...val].map(item=>{
+                    return (<div className="container">
+                    <Link to={item.url} style={{display:'block'}}> {item.judul} </Link>
+                    <img src={item.gambar} style={{height:'50px',display:'block'}} alt=""/>
+                </div>);
                 })
             }
-            <div className="container">
-                    <Link to="/budaya" style={{display:'block'}}> {query} </Link>
-                    <img src="" style={{height:'50px',display:'block'}} alt=""/>
-                </div>
+            
         </div>
         
     </>);
