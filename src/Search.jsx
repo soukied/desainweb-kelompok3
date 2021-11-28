@@ -34,15 +34,11 @@ export default function Search(props) {
     const [count, setCount] = useState(0);
 
     useEffect(()=>{
-        document.title = `Search '${query}' | Borneo Culture Wiki`;
-    },[]);
-
-    useEffect(()=>{
         setVal(queryData(query.toLowerCase()));
     },[val]);
 
     return (<>
-        <Header history={props.history}>Pencarian '{query}'</Header>
+        <Header history={props.history}>{`Pencarian '${query}'`}</Header>
         <div className="content">
             <h3 onClick={()=>{console.log(val)}}> {val.length > 0 ? `${val.length} hasil pencarian` : "Pencarian tidak ditemukan"}</h3>
             {

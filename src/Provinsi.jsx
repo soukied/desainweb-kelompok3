@@ -7,12 +7,10 @@ import Footer from "./Footer";
 
 export default function Provinsi(props) {
     const {prov} = useParams();
-    useEffect(()=>{
-        document.title = `Provinsi ${data[prov]['title']}`
-    },[]);
+
     return (
         <>
-        <Header lambang={data[prov]['logo']} history={props.history}>Provinsi {data[prov]['title']}</Header>
+        <Header lambang={data[prov]['logo']} history={props.history}>{'Provinsi '+data[prov]['title']}</Header>
         <div style={{marginTop:0}} className="conten">
 			<div style={{textAlign:"center"}}>
 				<img className="foto" style={{marginTop:0}} src={data[prov]['cover']}/>

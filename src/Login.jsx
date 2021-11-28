@@ -2,9 +2,7 @@ import React, {useEffect} from "react";
 import './styles/login.css';
 
 export default function Login(props) {
-    useEffect(()=>{
-        document.title = "Login | Borneo Culture Wiki";
-    }, []);
+
     return (
         <>
             <div className="overlay"></div>

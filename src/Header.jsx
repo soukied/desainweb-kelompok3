@@ -1,26 +1,26 @@
-import React, {create} from "react";
+import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import "./styles/header.css";
 
-export default class Header extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            value: ""
-        };
-    }
-    render() {
-        return (<div className="header">
-            <img src={this.props.lambang ? this.props.lambang : "/Borneo.png"} width="80" alt=""/>
-            <h1><Link style={{color:"black",textDecoration:"transparent",fontSize:"30px"}} to={
-                this.props.to ? this.props.to : '/'
-            }> {this.props.children} </Link></h1>	
-            <input onChange={ev=>{
-                this.setState({value:ev.target.value});
-            }} id="query-search" onKeyPress={ev=>{
-                if (ev.key == "Enter") 
-                    this.props.history.push("/search/" + this.state.value);
-            }} placeholder="Pencarian..." type="search"/>
-        </div>);
-    }
+export default ({lambang, to, history, children}) => {
+  
+    const [value, setValue] = useState("");
+
+    useEffect(()=>{
+        document.title = children ? `${children} | Borneo Culture Wiki` : "Borneo Culture Wiki";
+    },[]);
+
+    return (<div className="header">
+        <img src={lambang ? lambang : "/Borneo.png"} width="80" alt=""/>
+        <h1><Link style={{color:"black",textDecoration:"transparent",fontSize:"30px"}} to={
+            to ? to : '/'
+        }> {children} </Link></h1>	
+        <input onChange={ev=>{
+            setValue(ev.target.value);
+        }} id="query-search" onKeyPress={ev=>{
+            if (ev.key == "Enter") 
+                history.push("/search/" + value);
+        }} placeholder="Pencarian..." type="search"/>
+    </div>);
+
 }

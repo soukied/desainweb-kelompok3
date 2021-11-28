@@ -4,7 +4,7 @@ import Header from "./Header";
 import "./styles/budaya.css";
 import data from './data/index';
 
-function nameToData(name) {
+function getBudaya(name) {
     for (let prov of ['timur','barat','tengah','utara','selatan']) {
         for (let type of ['baju','rumah','tari']) {
             if (name == `${type}-adat-kalimantan-${prov}`) {
@@ -20,19 +20,17 @@ function nameToData(name) {
     }
 }
 
-export default function Budaya(props) {
+export default function Budaya({history}) {
     const {nama} = useParams();
-    useEffect(()=>{
-        document.title = `${nameToData(nama).judul} | Borneo Culture Wiki`;
-    }, []);
+
     return(<>
-        <Header to={nameToData(nama).back} lambang={nameToData(nama).logo} history={props.history}> {nameToData(nama).content.judul} </Header>
-        <h1 className="title"> {nameToData(nama).judul} </h1>
+        <Header to={getBudaya(nama).back} lambang={getBudaya(nama).logo} history={history}>{getBudaya(nama).title}</Header>
+        <h1 className="title"> {getBudaya(nama).content.judul} </h1>
         <div className="container">
             <div className="banner" style={{textAlign:"center"}}>
-                <img src={nameToData(nama).content.gambar} alt=""/>
+                <img src={getBudaya(nama).content.gambar} alt=""/>
             </div>
-            <p dangerouslySetInnerHTML={{__html:nameToData(nama).content.paragraf}}></p>
+            <p dangerouslySetInnerHTML={{__html:getBudaya(nama).content.paragraf}}></p>
         </div>
     </>);
 }

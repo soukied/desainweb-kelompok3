@@ -10,6 +10,9 @@ import "./styles/global.css"
 import Search from "./Search";
 import Login from "./Login";
 import Footer from "./Footer";
+import {createBrowserHistory} from 'history';
+
+const history = createBrowserHistory();
 
 let Main = () => (
     <Router>
@@ -25,3 +28,5 @@ let Main = () => (
 );
 
 ReactDOM.render(<Main/>, document.querySelector("#main"));
+
+export {history};
