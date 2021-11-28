@@ -4,7 +4,7 @@
   "description": "Repository pengerjaan projek tugas mata kuliah Desain Web kelompok 3",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && python -m http.server -d public 3000",
+    "start": "npm run build && serce public -l 3000",
     "build": "parcel build src/Main.jsx --out-dir public --out-file main.js",
     "watch": "parcel watch src/Main.jsx --out-dir public --out-file main.js",
     "serve": "parcel src/index.html --open"
