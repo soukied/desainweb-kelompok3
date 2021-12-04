@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 // import Header from "./Header";
 import Index from './Index';
@@ -9,27 +9,23 @@ import About from "./About";
 import "./styles/global.css"
 import Search from "./Search";
 import Login from "./Login";
-import Footer from "./Footer";
 import {createBrowserHistory} from 'history';
-import {Provider, useSelector} from 'react-redux';
+import {Provider} from 'react-redux';
 import store from "./store";
 
 const history = createBrowserHistory();
 
 let Main = () => {
-    let data = useSelector(state=>state);
-    useEffect(()=>{
-        console.log(data);
-    }, []);
+
     return (
         <Router>
             <div>
                 <Route exact path="/" component={Index}/>
-                <Route exact path="/provinsi/:prov" component={Provinsi}/>
-                <Route exact path="/budaya/:nama" component={Budaya}/>
-                <Route exact path="/about" component={About}/>
-                <Route exact path="/search/:query" component={Search}/>
-                <Route exact path="/login" component={Login}/>
+                <Route path="/provinsi/:prov" component={Provinsi}/>
+                <Route path="/budaya/:nama" component={Budaya}/>
+                <Route path="/about" component={About}/>
+                <Route path="/search/:query" component={Search}/>
+                <Route path="/login" component={Login}/>
             </div>
         </Router>
     );

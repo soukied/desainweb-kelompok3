@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import Footer from './Footer';
+import { useSelector } from 'react-redux';
 import Header from './Header';
 import './styles/search.css';
-import data from './data/index';
 
-function queryData(query) {
+function queryData(data, query) {
     let ret = [];
     ['timur','selatan','barat','tengah','utara'].forEach(p=>{
         ['baju','tari','rumah'].forEach(b=>{
@@ -28,22 +27,21 @@ function queryData(query) {
 }
 
 export default function Search(props) {
+    const data = useSelector(selector => selector);
     const {query} = useParams();
-    const [pencarian, setPencarian] = useState(query);
     const [val, setVal] = useState([]);
-    const [count, setCount] = useState(0);
 
     useEffect(()=>{
-        setVal(queryData(query.toLowerCase()));
-    },[val]);
+        setVal(queryData(data, query));
+    },[]);
 
     return (<>
         <Header history={props.history}>{`Pencarian '${query}'`}</Header>
         <div className="content">
-            <h3 onClick={()=>{console.log(val)}}> {val.length > 0 ? `${val.length} hasil pencarian` : "Pencarian tidak ditemukan"}</h3>
+            <h3> {val.length > 0 ? `${val.length} hasil pencarian` : "Pencarian tidak ditemukan"}</h3>
             {
-                [...val].map(item=>{
-                    return (<div className="container">
+                [...val].map((item, index) => {
+                    return (<div className="container" key={index}>
                     <Link to={item.url} style={{display:'block'}}> {item.judul} </Link>
                     <img src={item.gambar} style={{height:'50px',display:'block'}} alt=""/>
                 </div>);
