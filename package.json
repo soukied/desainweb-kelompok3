@@ -10,8 +10,8 @@
     }
   },
   "scripts": {
-    "start": "npm run build && npm run serve",
-    "build": "parcel build --no-cache",
+    "start": "concurrently \"npm run watch\" \"npm run serve\"",
+    "build": "parcel build",
     "watch": "parcel watch",
     "serve": "serve public -l 3000"
   },
@@ -31,6 +31,7 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "babel-loader": "^8.2.3",
+    "concurrently": "^6.4.0",
     "gh-pages": "^3.2.3",
     "history": "^5.1.0",
     "parcel": "^2.0.1",

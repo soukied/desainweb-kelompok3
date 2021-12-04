@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 // import Header from "./Header";
 import Index from './Index';
 import Provinsi from "./Provinsi";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import Budaya from "./Budaya";
 import About from "./About";
 import "./styles/global.css"

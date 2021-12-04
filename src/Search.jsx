@@ -9,7 +9,6 @@ function queryData(data, query) {
     ['timur','selatan','barat','tengah','utara'].forEach(p=>{
         ['baju','tari','rumah'].forEach(b=>{
             let qData = data[`kalimantan-${p}`][`${b}-adat`];
-            // console.log(qData);
             if (qData.judul.toLowerCase().includes(query)) {
                 ret.push({...qData, url:`/budaya/${b}-adat-kalimantan-${p}`});
             } else if (qData.paragraf instanceof Array) {

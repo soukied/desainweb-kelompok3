@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { useParams, Link } from "react-router-dom";
 import Header from "./Header";
+import { useSelector } from "react-redux";
 import './styles/provinsi.css'
-import data from './data/index';
-import Footer from "./Footer";
 
 export default function Provinsi(props) {
+    const data = useSelector(selector => selector);
     const {prov} = useParams();
 
     return (
