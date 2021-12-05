@@ -1,4 +1,4 @@
-div.content {
+/* div.content {
     margin: 1em 10%;
     background-color: rgb(75, 199, 71);
     padding: 1em 2em;
@@ -21,8 +21,4 @@ div.container > * {
 }
 div.container > *:last-child {
     margin-bottom: 0;
-}
-
-body {
-    background-color: #fffdd0;
-}
+} */

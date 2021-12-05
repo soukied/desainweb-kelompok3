@@ -1,18 +1,17 @@
 /* .conten {
     text-align: center;
 } */
-
-html, body {
-    height: 100%;
+body {
+    min-height: 100vh;
 }
 #main {
-    background-color: #fffdd0
+    background-color: white;
 }
-
+/* 
 .conten > ul > li {
     list-style: none;
     margin-bottom: 1em;
-}
+} */
 
 .conten > ul > li:last-child {
     margin-bottom: 0;

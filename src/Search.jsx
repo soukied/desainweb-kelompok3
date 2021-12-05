@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Header from './Header';
 import './styles/search.css';
+import Footer from './Footer';
 
 function queryData(data, query) {
     let ret = [];
@@ -25,29 +26,35 @@ function queryData(data, query) {
     return ret;
 }
 
-export default function Search(props) {
+export default function Search({history}) {
     const data = useSelector(selector => selector);
     const {query} = useParams();
     const [val, setVal] = useState([]);
 
     useEffect(()=>{
-        setVal(queryData(data, query));
-    },[]);
+        setVal(queryData(data, query.toLowerCase()));
+    },[query]);
 
-    return (<>
-        <Header history={props.history}>{`Pencarian '${query}'`}</Header>
-        <div className="content">
-            <h3> {val.length > 0 ? `${val.length} hasil pencarian` : "Pencarian tidak ditemukan"}</h3>
+    return (<div className="flex-col flex h-screen">
+        <Header query={query} history={history}>{`Pencarian '${query}'`}</Header>
+        <div className="flex flex-grow items-center justify-center py-4">
+            <div className="bg-gray-900 text-white py-10 px-40 rounded-xl">
+            <h3 className="text-2xl font-bold"> {val.length > 0 ? `${val.length} hasil pencarian '${query}'` : "Pencarian tidak ditemukan"}</h3>
+            <div className="grid grid-cols-2 gap-3">
             {
                 [...val].map((item, index) => {
-                    return (<div className="container" key={index}>
-                    <Link to={item.url} style={{display:'block'}}> {item.judul} </Link>
+                    return (<div className="" key={index}>
+                    <Link className="text-white underline text-base" title={item.judul} to={item.url} style={{display:'block'}}> 
+                    <span>{item.judul} </span>
                     <img src={item.gambar} style={{height:'50px',display:'block'}} alt=""/>
+                    </Link>
                 </div>);
                 })
             }
+            </div>
             
+            </div>
         </div>
-        
-    </>);
+        <Footer/>
+    </div>);
 }

@@ -1,14 +1,11 @@
-
-body {
-    margin-bottom: 30px;
-    min-height: 100%;
-    position: relative;
+html, body {
+    height: 100%;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    /* height: 100%; */
+body {
     overflow-x: hidden;
-    font-family: Poppins, sans-serif;
+}
+
+div#main {
+    min-height: 100%;
 }

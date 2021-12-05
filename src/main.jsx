@@ -19,14 +19,12 @@ let Main = () => {
 
     return (
         <Router>
-            <div>
                 <Route exact path="/" component={Index}/>
                 <Route path="/provinsi/:prov" component={Provinsi}/>
                 <Route path="/budaya/:nama" component={Budaya}/>
                 <Route path="/about" component={About}/>
                 <Route path="/search/:query" component={Search}/>
                 <Route path="/login" component={Login}/>
-            </div>
         </Router>
     );
 }

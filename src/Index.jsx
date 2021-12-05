@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import "./styles/index.css"
+import Footer from "./Footer";
 
 export default ({history}) => {
     const [provinsi,setProvinsi] = useState([
@@ -14,21 +15,26 @@ export default ({history}) => {
     useEffect(()=>{
         document.title = "Borneo Culture Wiki";
     },[]);
-    return (<>
+    return (<div className="flex flex-col">
         <Header history={history}>Borneo Culture Wiki</Header>
-        <div className="banner"><img src="/images/kalimantan.png" alt="Peta Kalimantan"/></div>
-        <div className="conten" style={{textAlign: 'center'}}>
-        <ul>
-            <li>
-                <Link to="/about">About</Link>
-            </li>
-                {provinsi.map(val=>(
-                    <li key={val.url}>
-                        <Link to={`/provinsi/${val.url}`}>{val.nama}</Link>
+        <div className="flex-grow mt-3">
+            <div className="banner">
+                <img src="/images/kalimantan.png" alt="Peta Kalimantan"/>
+            </div>
+            <div className="conten" style={{textAlign: 'center'}}>
+                <ul>
+                    <li>
+                        <Link to="/about">About</Link>
                     </li>
-                ))}
-        </ul>
-    </div>
-    </>);
+                        {provinsi.map(val=>(
+                            <li key={val.url}>
+                                <Link to={`/provinsi/${val.url}`}>{val.nama}</Link>
+                            </li>
+                        ))}
+                </ul>
+            </div>
+        </div>
+        <Footer/>
+    </div>);
 }
 
