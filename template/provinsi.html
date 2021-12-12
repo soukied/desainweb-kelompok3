@@ -1,0 +1,22 @@
+<div className="flex flex-col">
+            <Header lambang={provData.logo} history={props.history}>{'Provinsi '+ provData.title}</Header>
+            <div className="flex-grow">
+                <div className="flex mx-20 mt-5">
+                    <div className="flex-1 pr-10">  
+                    <img className="rounded-xl" style={{width:500}} src={provData.cover}/>
+                        <span className="text-3xl font-bold mt-2">{provData.title}</span><br/>
+                        <span>{provData.deskripsi}</span>
+                    </div>
+                    <div className="flex-none">
+                        <img src={provData.logo} width="200" />
+                    </div>
+                </div>
+                <div className="flex bg-green-200 justify-around mt-10 p-10">
+                    {
+                        [['baju-adat', 'Baju Adat'],['rumah-adat','Rumah Adat'],['tari-adat', 'Tari Adat']].map(([id, name],i)=>
+                        <Card key={i} judul={name} konten={provData[id]['paragraf']} urlGambar={provData[id]["gambar"]} tujuan={"/budaya/"+id + "-"+prov}/>)
+                    }
+                </div>
+            </div>
+            <Footer/>
+        </div>
