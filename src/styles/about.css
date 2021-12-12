@@ -1,0 +1,23 @@
+.logoabout{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -5%;
+    padding-top: 3%;
+}
+
+.isi{
+    margin: 10%;
+    margin-bottom: -5%;
+    padding-bottom: -10%;
+}
+
+.kelompok{
+    padding-top: -10%;
+    margin: 10%;
+}
+
+.list-decimal{
+    margin: 10%;
+    margin-top: 2%;
+}
