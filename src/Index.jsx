@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
-import "./styles/index.css"
+import "./styles/index.css";
 import Footer from "./Footer";
 
 export default ({history}) => {

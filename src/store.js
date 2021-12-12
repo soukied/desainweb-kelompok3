@@ -4,14 +4,17 @@ import data from './data';
 const initialState = data; 
 
 const Type = {
-    TAMBAH: 1,
-    HAPUS: 2
+    TAMBAH: 0,
+    HAPUS: 1,
+    UBAH: 2
 }
 
 let reducer = (state = initialState, {type, value}) => {
     switch (type) {
         case Type.TAMBAH:
             return {...state, ...value};
+        case Type.UBAH:
+            return value;
         case Type.HAPUS:
             let temp = {...state};
             delete temp[value];
@@ -20,5 +23,7 @@ let reducer = (state = initialState, {type, value}) => {
             return state; 
     }
 }
+
+export {Type};
 
 export default createStore(reducer);
