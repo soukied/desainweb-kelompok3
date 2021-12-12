@@ -31,16 +31,12 @@ export default function Provinsi(props) {
     return (
         <div className="flex flex-col">
             <Header lambang={provData.logo} history={props.history}>{'Provinsi '+ provData.title}</Header>
-            <div className="flex-grow">
-                <div className="flex mx-20 mt-5">
-                    <div className="flex-1 pr-10">  
+            <div className="flex-grow relative">
+                <img src={provData.logo} style={{top:20,right:30}} className="absolute" width="100" />
+                <div className="flex justify-center items-center flex-col mx-20 mt-5">  
                     <img className="rounded-xl" style={{width:500}} src={provData.cover}/>
                         <span className="text-3xl font-bold mt-2">{provData.title}</span><br/>
                         <span>{provData.deskripsi}</span>
-                    </div>
-                    <div className="flex-none">
-                        <img src={provData.logo} width="200" />
-                    </div>
                 </div>
                 <div className="flex bg-green-200 justify-around mt-10 p-10">
                     {
