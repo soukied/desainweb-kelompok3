@@ -140,7 +140,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"hTcgM":[function(require,module,exports) {
+})({"6xKIH":[function(require,module,exports) {
 var Refresh = require('react-refresh/runtime');
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {
@@ -151,11 +151,11 @@ window.$RefreshSig$ = function() {
     };
 };
 
-},{"react-refresh/runtime":"gAKDy"}],"gAKDy":[function(require,module,exports) {
+},{"react-refresh/runtime":"kIWnz"}],"kIWnz":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-refresh-runtime.development.js');
 
-},{"./cjs/react-refresh-runtime.development.js":"jrApg"}],"jrApg":[function(require,module,exports) {
+},{"./cjs/react-refresh-runtime.development.js":"cOQln"}],"cOQln":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -618,12 +618,12 @@ module.exports = require('./cjs/react-refresh-runtime.development.js');
     exports.setSignature = setSignature;
 })();
 
-},{}],"595d3":[function(require,module,exports) {
+},{}],"jsbKe":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "4a236f9275d0a351";
-module.bundle.HMR_BUNDLE_ID = "acdcb8edf89fb75a";
+module.bundle.HMR_BUNDLE_ID = "8578a90b7fe809f5";
 "use strict";
 function _createForOfIteratorHelper(o, allowArrayLike) {
     var it;
@@ -936,11 +936,11 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"bO15o":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$013b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"e11ev":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$54de = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$013b.prelude(module);
+$parcel$ReactRefreshHelpers$54de.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -976,7 +976,7 @@ const history = _history.createBrowserHistory();
 let Main = ()=>{
     return(/*#__PURE__*/ _jsxRuntime.jsxs(_reactRouterDom.BrowserRouter, {
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
             lineNumber: 23,
             columnNumber: 9
         },
@@ -987,7 +987,7 @@ let Main = ()=>{
                 path: "/",
                 component: _indexDefault.default,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
                     lineNumber: 24,
                     columnNumber: 17
                 },
@@ -997,7 +997,7 @@ let Main = ()=>{
                 path: "/provinsi/:prov",
                 component: _provinsiDefault.default,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
                     lineNumber: 25,
                     columnNumber: 17
                 },
@@ -1007,7 +1007,7 @@ let Main = ()=>{
                 path: "/budaya/:nama",
                 component: _budayaDefault.default,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
                     lineNumber: 26,
                     columnNumber: 17
                 },
@@ -1017,7 +1017,7 @@ let Main = ()=>{
                 path: "/about",
                 component: _aboutDefault.default,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
                     lineNumber: 27,
                     columnNumber: 17
                 },
@@ -1027,7 +1027,7 @@ let Main = ()=>{
                 path: "/search/:query",
                 component: _searchDefault.default,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
                     lineNumber: 28,
                     columnNumber: 17
                 },
@@ -1037,7 +1037,7 @@ let Main = ()=>{
                 path: "/login",
                 component: _loginDefault.default,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
                     lineNumber: 29,
                     columnNumber: 17
                 },
@@ -1050,14 +1050,14 @@ _c = Main;
 _reactDomDefault.default.render(/*#__PURE__*/ _jsxRuntime.jsx(_reactRedux.Provider, {
     store: _storeDefault.default,
     __source: {
-        fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
         lineNumber: 35,
         columnNumber: 1
     },
     __self: undefined,
     children: /*#__PURE__*/ _jsxRuntime.jsx(Main, {
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/main.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/main.jsx",
             lineNumber: 36,
             columnNumber: 5
         },
@@ -1067,16 +1067,16 @@ _reactDomDefault.default.render(/*#__PURE__*/ _jsxRuntime.jsx(_reactRedux.Provid
 var _c;
 $RefreshReg$(_c, "Main");
 
-  $parcel$ReactRefreshHelpers$013b.postlude(module);
+  $parcel$ReactRefreshHelpers$54de.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","react-dom":"2DsNV","./Index":"ipD24","./Provinsi":"7iHE4","react-router-dom":"g87DC","./Budaya":"edbs3","./About":"9ZOPj","./styles/global.css":"kkzAS","./Search":"htkAA","./Login":"bnpEJ","history":"hvk2z","react-redux":"iVUrg","./store":"6SN6V","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX","react-slideshow-image/dist/styles.css":"27Pvu"}],"cB2Kq":[function(require,module,exports) {
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","react-dom":"2xFY3","./Index":"dFV3V","./Provinsi":"geSZB","react-router-dom":"3yurn","./Budaya":"1wLDM","./About":"5pqKh","./styles/global.css":"c4Zll","./Search":"4nOLA","./Login":"K9I1b","history":"hQ50j","react-redux":"7CwZv","./store":"iQqIh","react-slideshow-image/dist/styles.css":"huIjU","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"goSQe":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-runtime.development.js');
 
-},{"./cjs/react-jsx-runtime.development.js":"6dfJE"}],"6dfJE":[function(require,module,exports) {
+},{"./cjs/react-jsx-runtime.development.js":"3hcqi"}],"3hcqi":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-jsx-runtime.development.js
  *
@@ -1879,11 +1879,11 @@ module.exports = require('./cjs/react-jsx-runtime.development.js');
     exports.jsxs = jsxs;
 })();
 
-},{"react":"5pVDH","object-assign":"5T9mt"}],"5pVDH":[function(require,module,exports) {
+},{"react":"lFV7p","object-assign":"gCM3d"}],"lFV7p":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react.development.js');
 
-},{"./cjs/react.development.js":"2QS3x"}],"2QS3x":[function(require,module,exports) {
+},{"./cjs/react.development.js":"4cDcA"}],"4cDcA":[function(require,module,exports) {
 /** @license React v17.0.2
  * react.development.js
  *
@@ -3482,7 +3482,7 @@ module.exports = require('./cjs/react.development.js');
     exports.version = ReactVersion;
 })();
 
-},{"object-assign":"5T9mt"}],"5T9mt":[function(require,module,exports) {
+},{"object-assign":"gCM3d"}],"gCM3d":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -3540,7 +3540,7 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
     return to;
 };
 
-},{}],"2DsNV":[function(require,module,exports) {
+},{}],"2xFY3":[function(require,module,exports) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -3556,7 +3556,7 @@ function checkDCE() {
 }
 module.exports = require('./cjs/react-dom.development.js');
 
-},{"./cjs/react-dom.development.js":"4CWDZ"}],"4CWDZ":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"5dHD8"}],"5dHD8":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-dom.development.js
  *
@@ -22097,11 +22097,11 @@ module.exports = require('./cjs/react-dom.development.js');
     exports.version = ReactVersion;
 })();
 
-},{"react":"5pVDH","object-assign":"5T9mt","scheduler":"hAsvT","scheduler/tracing":"9XkHA"}],"hAsvT":[function(require,module,exports) {
+},{"react":"lFV7p","object-assign":"gCM3d","scheduler":"c4cSK","scheduler/tracing":"iuQJM"}],"c4cSK":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/scheduler.development.js');
 
-},{"./cjs/scheduler.development.js":"4le8I"}],"4le8I":[function(require,module,exports) {
+},{"./cjs/scheduler.development.js":"gYOFT"}],"gYOFT":[function(require,module,exports) {
 /** @license React v0.20.2
  * scheduler.development.js
  *
@@ -22574,11 +22574,11 @@ module.exports = require('./cjs/scheduler.development.js');
     exports.unstable_wrapCallback = unstable_wrapCallback;
 })();
 
-},{}],"9XkHA":[function(require,module,exports) {
+},{}],"iuQJM":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/scheduler-tracing.development.js');
 
-},{"./cjs/scheduler-tracing.development.js":"N92rJ"}],"N92rJ":[function(require,module,exports) {
+},{"./cjs/scheduler-tracing.development.js":"1RyZ0"}],"1RyZ0":[function(require,module,exports) {
 /** @license React v0.20.2
  * scheduler-tracing.development.js
  *
@@ -22830,11 +22830,11 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
     exports.unstable_wrap = unstable_wrap;
 })();
 
-},{}],"ipD24":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$50ec = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"dFV3V":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e099 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$50ec.prelude(module);
+$parcel$ReactRefreshHelpers$e099.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -22863,7 +22863,7 @@ function Slideshow() {
     ];
     return(/*#__PURE__*/ _jsxRuntime.jsx("div", {
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
             lineNumber: 17,
             columnNumber: 14
         },
@@ -22871,7 +22871,7 @@ function Slideshow() {
         children: /*#__PURE__*/ _jsxRuntime.jsx(_reactSlideshowImage.Slide, {
             easing: "ease",
             __source: {
-                fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                 lineNumber: 18,
                 columnNumber: 9
             },
@@ -22879,7 +22879,7 @@ function Slideshow() {
             children: urls.map((item, index)=>/*#__PURE__*/ _jsxRuntime.jsx("div", {
                     className: "each-slide",
                     __source: {
-                        fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                         lineNumber: 21,
                         columnNumber: 15
                     },
@@ -22890,7 +22890,7 @@ function Slideshow() {
                             'backgroundImage': `url(${item})`
                         },
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                             lineNumber: 22,
                             columnNumber: 15
                         },
@@ -22920,7 +22920,7 @@ exports.default = _s1(({ history  })=>{
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         className: "flex flex-col",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
             lineNumber: 36,
             columnNumber: 13
         },
@@ -22929,7 +22929,7 @@ exports.default = _s1(({ history  })=>{
             /*#__PURE__*/ _jsxRuntime.jsx(_headerDefault.default, {
                 history: history,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                     lineNumber: 37,
                     columnNumber: 9
                 },
@@ -22939,7 +22939,7 @@ exports.default = _s1(({ history  })=>{
             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 className: "flex-grow mt-5",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                     lineNumber: 38,
                     columnNumber: 9
                 },
@@ -22948,14 +22948,14 @@ exports.default = _s1(({ history  })=>{
                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
                         className: "banner flex flex-col",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                             lineNumber: 39,
                             columnNumber: 13
                         },
                         __self: undefined,
                         children: /*#__PURE__*/ _jsxRuntime.jsx(Slideshow, {
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                                 lineNumber: 40,
                                 columnNumber: 17
                             },
@@ -22968,7 +22968,7 @@ exports.default = _s1(({ history  })=>{
                             textAlign: 'center'
                         },
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                             lineNumber: 42,
                             columnNumber: 13
                         },
@@ -22980,7 +22980,7 @@ exports.default = _s1(({ history  })=>{
                                 },
                                 className: "text-4xl font-bold mb-5",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                                     lineNumber: 43,
                                     columnNumber: 17
                                 },
@@ -22990,7 +22990,7 @@ exports.default = _s1(({ history  })=>{
                             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                                 className: "grid grid-cols-3 mx-10 gap-3",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                                     lineNumber: 45,
                                     columnNumber: 17
                                 },
@@ -22998,7 +22998,7 @@ exports.default = _s1(({ history  })=>{
                                 children: dataKeys.map((val, i)=>/*#__PURE__*/ _jsxRuntime.jsx(_reactRouterDom.Link, {
                                         to: "/provinsi/" + val,
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                                             lineNumber: 48,
                                             columnNumber: 29
                                         },
@@ -23006,7 +23006,7 @@ exports.default = _s1(({ history  })=>{
                                         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
                                             className: "text-black rounded-xl flex justify-center items-center",
                                             __source: {
-                                                fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                                                 lineNumber: 49,
                                                 columnNumber: 33
                                             },
@@ -23014,7 +23014,7 @@ exports.default = _s1(({ history  })=>{
                                             children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                                 className: "hover:bg-gray-800 p-3 rounded hover:text-white flex flex-col justify-center items-center",
                                                 __source: {
-                                                    fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                                                     lineNumber: 50,
                                                     columnNumber: 33
                                                 },
@@ -23024,7 +23024,7 @@ exports.default = _s1(({ history  })=>{
                                                         src: data[val].logo,
                                                         className: "w-20",
                                                         __source: {
-                                                            fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                                                             lineNumber: 51,
                                                             columnNumber: 33
                                                         },
@@ -23033,7 +23033,7 @@ exports.default = _s1(({ history  })=>{
                                                     /*#__PURE__*/ _jsxRuntime.jsx("span", {
                                                         className: "text-lg",
                                                         __source: {
-                                                            fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                                                             lineNumber: 52,
                                                             columnNumber: 33
                                                         },
@@ -23052,7 +23052,7 @@ exports.default = _s1(({ history  })=>{
             }),
             /*#__PURE__*/ _jsxRuntime.jsx(_footerDefault.default, {
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Index.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Index.jsx",
                     lineNumber: 71,
                     columnNumber: 9
                 },
@@ -23068,16 +23068,16 @@ exports.default = _s1(({ history  })=>{
 var _c;
 $RefreshReg$(_c, "Slideshow");
 
-  $parcel$ReactRefreshHelpers$50ec.postlude(module);
+  $parcel$ReactRefreshHelpers$e099.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","./Header":"bWBwR","react-router-dom":"g87DC","./styles/index.css":"71bzV","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX","react-redux":"iVUrg","./Footer":"ftcRp","react-slideshow-image":"73XT6","./styles/slideshow.css":"iSKIY"}],"bWBwR":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$6e1b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","./Header":"8YlC5","react-router-dom":"3yurn","./styles/index.css":"jbw4S","react-redux":"7CwZv","./Footer":"nHtxw","react-slideshow-image":"7Brlw","./styles/slideshow.css":"jBPhf","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"8YlC5":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3a82 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$6e1b.prelude(module);
+$parcel$ReactRefreshHelpers$3a82.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -23129,7 +23129,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
     return(/*#__PURE__*/ _jsxRuntime.jsxs("header", {
         className: "shadow-lg py-2 bg-white mb-3",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
             lineNumber: 27,
             columnNumber: 5
         },
@@ -23138,7 +23138,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 className: "flex justify-between px-5 py-2 items-center",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                     lineNumber: 29,
                     columnNumber: 9
                 },
@@ -23147,7 +23147,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
                         className: "flex-1 w-2",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                             lineNumber: 30,
                             columnNumber: 13
                         },
@@ -23158,7 +23158,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                 setHideSearch(true);
                             },
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                 lineNumber: 31,
                                 columnNumber: 17
                             },
@@ -23167,7 +23167,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                 src: "/x-logo.svg",
                                 width: "30",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                     lineNumber: 32,
                                     columnNumber: 31
                                 },
@@ -23178,7 +23178,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                 viewBox: "0 0 512 512",
                                 xmlns: "http://www.w3.org/2000/svg",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                     lineNumber: 32,
                                     columnNumber: 67
                                 },
@@ -23187,7 +23187,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                     fill: "#000",
                                     d: "M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z",
                                     __source: {
-                                        fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                         lineNumber: 33,
                                         columnNumber: 25
                                     },
@@ -23199,7 +23199,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
                         className: "flex flex-1 justify-center items-center",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                             lineNumber: 37,
                             columnNumber: 13
                         },
@@ -23208,7 +23208,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                             className: "flex hover:underline text-black items-center mt-0",
                             to: "/",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                 lineNumber: 38,
                                 columnNumber: 17
                             },
@@ -23219,7 +23219,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                     src: "/Borneo-pas.png",
                                     alt: "Borneo Culture Wiki",
                                     __source: {
-                                        fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                         lineNumber: 39,
                                         columnNumber: 21
                                     },
@@ -23228,7 +23228,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                 /*#__PURE__*/ _jsxRuntime.jsx("span", {
                                     className: "font-bold text-black text-xl",
                                     __source: {
-                                        fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                         lineNumber: 40,
                                         columnNumber: 21
                                     },
@@ -23241,7 +23241,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                     /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                         className: "flex flex-1 items-center justify-end",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                             lineNumber: 43,
                             columnNumber: 13
                         },
@@ -23254,7 +23254,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                     setHideSearch(!hideSearch);
                                 },
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                     lineNumber: 44,
                                     columnNumber: 17
                                 },
@@ -23263,7 +23263,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                     src: "/x-logo.svg",
                                     width: "30",
                                     __source: {
-                                        fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                         lineNumber: 46,
                                         columnNumber: 39
                                     },
@@ -23273,7 +23273,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                     src: "/magnifying-glass.svg",
                                     alt: "Cari",
                                     __source: {
-                                        fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                         lineNumber: 46,
                                         columnNumber: 77
                                     },
@@ -23285,7 +23285,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                 ,
                                 className: "bg-black hover:text-gray-300 text-white hover:underline font-bold rounded-lg px-3 py-1",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                     lineNumber: 49,
                                     columnNumber: 17
                                 },
@@ -23299,7 +23299,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: hideSearch ? "hide-search" : "",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                     lineNumber: 52,
                     columnNumber: 9
                 },
@@ -23307,7 +23307,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                 children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                     className: "flex justify-end mx-2 rounded-md px-5",
                     __source: {
-                        fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                         lineNumber: 53,
                         columnNumber: 13
                     },
@@ -23327,7 +23327,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                             id: "pencarian",
                             placeholder: "Pencarian...",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                 lineNumber: 54,
                                 columnNumber: 17
                             },
@@ -23338,7 +23338,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                 if (inputElement.current.value.trim().length > 0) history.push("/search/" + inputElement.current.value);
                             },
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                 lineNumber: 59,
                                 columnNumber: 17
                             },
@@ -23348,7 +23348,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                                 src: "/magnifying-glass.svg",
                                 alt: "Cari",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                     lineNumber: 62,
                                     columnNumber: 20
                                 },
@@ -23361,7 +23361,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: hideNav ? "hide-nav" : "",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                     lineNumber: 65,
                     columnNumber: 9
                 },
@@ -23369,7 +23369,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                 children: navs.map((item, index)=>/*#__PURE__*/ _jsxRuntime.jsx("div", {
                         className: "hover:bg-black underline mx-2 rounded-md",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                             lineNumber: 69,
                             columnNumber: 17
                         },
@@ -23383,7 +23383,7 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
                             className: "px-5 font-xl py-2 text-black hover:text-white",
                             to: item.url,
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Header.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Header.jsx",
                                 lineNumber: 70,
                                 columnNumber: 17
                             },
@@ -23397,12 +23397,12 @@ exports.default = _s(({ lambang , to , history , children , query  })=>{
     }));
 }, "yisYD/g/9323nYdoXK/cA4RMqTQ=");
 
-  $parcel$ReactRefreshHelpers$6e1b.postlude(module);
+  $parcel$ReactRefreshHelpers$3a82.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","react-router-dom":"g87DC","./styles/header.css":"6xusD","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX"}],"g87DC":[function(require,module,exports) {
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","react-router-dom":"3yurn","./styles/header.css":"hcL2c","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"3yurn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>_reactRouter.MemoryRouter
@@ -23704,7 +23704,7 @@ NavLink.propTypes = _extendsDefault.default({
     ])
 });
 
-},{"react-router":"lUADJ","@babel/runtime/helpers/esm/inheritsLoose":"bLkZe","react":"5pVDH","history":"j1VAw","prop-types":"9yhZR","tiny-warning":"6tjDw","@babel/runtime/helpers/esm/extends":"jiNDb","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3utCP","tiny-invariant":"fcrGV","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"lUADJ":[function(require,module,exports) {
+},{"react-router":"g8ppE","@babel/runtime/helpers/esm/inheritsLoose":"hDWyf","react":"lFV7p","history":"5WRfn","prop-types":"2T2tQ","tiny-warning":"6B79R","@babel/runtime/helpers/esm/extends":"4VUKs","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"iJcoG","tiny-invariant":"cnbZF","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"g8ppE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MemoryRouter", ()=>MemoryRouter1
@@ -24323,7 +24323,7 @@ if (typeof window !== "undefined") {
     global[key] = "esm";
 }
 
-},{"@babel/runtime/helpers/esm/inheritsLoose":"bLkZe","react":"5pVDH","prop-types":"9yhZR","history":"9VsnC","tiny-warning":"6tjDw","mini-create-react-context":"3BUzi","tiny-invariant":"fcrGV","@babel/runtime/helpers/esm/extends":"jiNDb","path-to-regexp":"iyOk3","react-is":"19fvO","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3utCP","hoist-non-react-statics":"2hnSN","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"bLkZe":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/inheritsLoose":"hDWyf","react":"lFV7p","prop-types":"2T2tQ","history":"cs1VO","tiny-warning":"6B79R","mini-create-react-context":"1VeAR","tiny-invariant":"cnbZF","@babel/runtime/helpers/esm/extends":"4VUKs","path-to-regexp":"8wGda","react-is":"35ZX2","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"iJcoG","hoist-non-react-statics":"459Uj","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"hDWyf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _setPrototypeOfJs = require("./setPrototypeOf.js");
@@ -24335,7 +24335,7 @@ function _inheritsLoose(subClass, superClass) {
 }
 exports.default = _inheritsLoose;
 
-},{"./setPrototypeOf.js":"4TfEO","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"4TfEO":[function(require,module,exports) {
+},{"./setPrototypeOf.js":"lLmS3","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"lLmS3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _setPrototypeOf(o1, p1) {
@@ -24347,7 +24347,7 @@ function _setPrototypeOf(o1, p1) {
 }
 exports.default = _setPrototypeOf;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"k5piN":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"6Rul2":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -24377,18 +24377,18 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"9yhZR":[function(require,module,exports) {
+},{}],"2T2tQ":[function(require,module,exports) {
 var ReactIs = require('react-is');
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
 var throwOnDirectAccess = true;
 module.exports = require('./factoryWithTypeCheckers')(ReactIs.isElement, throwOnDirectAccess);
 
-},{"react-is":"19fvO","./factoryWithTypeCheckers":"1hdU5"}],"19fvO":[function(require,module,exports) {
+},{"react-is":"35ZX2","./factoryWithTypeCheckers":"a2biC"}],"35ZX2":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-is.development.js');
 
-},{"./cjs/react-is.development.js":"jTMsD"}],"jTMsD":[function(require,module,exports) {
+},{"./cjs/react-is.development.js":"5lpdv"}],"5lpdv":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -24543,7 +24543,7 @@ module.exports = require('./cjs/react-is.development.js');
     exports.typeOf = typeOf;
 })();
 
-},{}],"1hdU5":[function(require,module,exports) {
+},{}],"a2biC":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -24974,7 +24974,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return ReactPropTypes;
 };
 
-},{"react-is":"19fvO","object-assign":"5T9mt","./lib/ReactPropTypesSecret":"1w14z","./checkPropTypes":"4WnNP"}],"1w14z":[function(require,module,exports) {
+},{"react-is":"35ZX2","object-assign":"gCM3d","./lib/ReactPropTypesSecret":"h0wdg","./checkPropTypes":"eOe1H"}],"h0wdg":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -24984,7 +24984,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
-},{}],"4WnNP":[function(require,module,exports) {
+},{}],"eOe1H":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -25056,7 +25056,7 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"./lib/ReactPropTypesSecret":"1w14z"}],"9VsnC":[function(require,module,exports) {
+},{"./lib/ReactPropTypesSecret":"h0wdg"}],"cs1VO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory
@@ -25786,7 +25786,7 @@ function clamp(n, lowerBound, upperBound) {
     return history;
 }
 
-},{"@babel/runtime/helpers/esm/extends":"jiNDb","resolve-pathname":"bWdll","value-equal":"hqVCU","tiny-warning":"6tjDw","tiny-invariant":"fcrGV","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"jiNDb":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"4VUKs","resolve-pathname":"d0NPp","value-equal":"fZXhR","tiny-warning":"6B79R","tiny-invariant":"cnbZF","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"4VUKs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _extends() {
@@ -25801,7 +25801,7 @@ function _extends() {
 }
 exports.default = _extends;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"bWdll":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"d0NPp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function isAbsolute(pathname) {
@@ -25853,7 +25853,7 @@ function resolvePathname(to, from) {
 }
 exports.default = resolvePathname;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"hqVCU":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"fZXhR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function valueOf(obj) {
@@ -25880,7 +25880,7 @@ function valueEqual(a, b) {
 }
 exports.default = valueEqual;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"6tjDw":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"6B79R":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var isProduction = false;
@@ -25897,7 +25897,7 @@ function warning(condition, message) {
 }
 exports.default = warning;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"fcrGV":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"cnbZF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var isProduction = false;
@@ -25909,7 +25909,7 @@ function invariant(condition, message) {
 }
 exports.default = invariant;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"3BUzi":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"1VeAR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -26043,7 +26043,7 @@ function createReactContext(defaultValue, calculateChangedBits) {
 var index = _reactDefault.default.createContext || createReactContext;
 exports.default = index;
 
-},{"react":"5pVDH","@babel/runtime/helpers/esm/inheritsLoose":"bLkZe","prop-types":"9yhZR","tiny-warning":"6tjDw","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"iyOk3":[function(require,module,exports) {
+},{"react":"lFV7p","@babel/runtime/helpers/esm/inheritsLoose":"hDWyf","prop-types":"2T2tQ","tiny-warning":"6B79R","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"8wGda":[function(require,module,exports) {
 var isarray = require('isarray');
 /**
  * Expose `pathToRegexp`.
@@ -26351,12 +26351,12 @@ module.exports.tokensToRegExp = tokensToRegExp;
     return stringToRegexp(path, keys, options);
 }
 
-},{"isarray":"3074f"}],"3074f":[function(require,module,exports) {
+},{"isarray":"4wB71"}],"4wB71":[function(require,module,exports) {
 module.exports = Array.isArray || function(arr) {
     return Object.prototype.toString.call(arr) == '[object Array]';
 };
 
-},{}],"3utCP":[function(require,module,exports) {
+},{}],"iJcoG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _objectWithoutPropertiesLoose(source, excluded) {
@@ -26375,7 +26375,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 exports.default = _objectWithoutPropertiesLoose;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"2hnSN":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"459Uj":[function(require,module,exports) {
 'use strict';
 var reactIs = require('react-is');
 /**
@@ -26461,7 +26461,7 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 module.exports = hoistNonReactStatics;
 
-},{"react-is":"19fvO"}],"j1VAw":[function(require,module,exports) {
+},{"react-is":"35ZX2"}],"5WRfn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory
@@ -27191,7 +27191,7 @@ function clamp(n, lowerBound, upperBound) {
     return history;
 }
 
-},{"@babel/runtime/helpers/esm/extends":"jiNDb","resolve-pathname":"bWdll","value-equal":"hqVCU","tiny-warning":"6tjDw","tiny-invariant":"fcrGV","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"6xusD":[function() {},{}],"hOibX":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"4VUKs","resolve-pathname":"d0NPp","value-equal":"fZXhR","tiny-warning":"6B79R","tiny-invariant":"cnbZF","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"hcL2c":[function() {},{}],"72jMI":[function(require,module,exports) {
 "use strict";
 var Refresh = require('react-refresh/runtime');
 function debounce(func, delay) {
@@ -27311,7 +27311,7 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"gAKDy"}],"71bzV":[function() {},{}],"iVUrg":[function(require,module,exports) {
+},{"react-refresh/runtime":"kIWnz"}],"jbw4S":[function() {},{}],"7CwZv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "batch", ()=>_reactBatchedUpdates.unstable_batchedUpdates
@@ -27323,7 +27323,7 @@ parcelHelpers.exportAll(_exports, exports);
 // with standard React renderers (ReactDOM, React Native)
 _batch.setBatch(_reactBatchedUpdates.unstable_batchedUpdates);
 
-},{"./exports":"iiOP2","./utils/reactBatchedUpdates":"7Em0k","./utils/batch":"aEzsO","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"iiOP2":[function(require,module,exports) {
+},{"./exports":"fCmt8","./utils/reactBatchedUpdates":"kCBGD","./utils/batch":"c3qht","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"fCmt8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Provider", ()=>_providerDefault.default
@@ -27361,7 +27361,7 @@ var _useStore = require("./hooks/useStore");
 var _shallowEqual = require("./utils/shallowEqual");
 var _shallowEqualDefault = parcelHelpers.interopDefault(_shallowEqual);
 
-},{"./components/Provider":"ixe4K","./components/connectAdvanced":"9VjDK","./components/Context":"3oLEY","./connect/connect":"gIiO1","./hooks/useDispatch":"dDNKx","./hooks/useSelector":"dbdCz","./hooks/useStore":"aDdAG","./utils/shallowEqual":"lpBLD","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"ixe4K":[function(require,module,exports) {
+},{"./components/Provider":"knDmm","./components/connectAdvanced":"eWb2E","./components/Context":"abumi","./connect/connect":"7exO1","./hooks/useDispatch":"fZwId","./hooks/useSelector":"6s3ZV","./hooks/useStore":"5JmWL","./utils/shallowEqual":"jn6fa","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"knDmm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -27416,7 +27416,7 @@ Provider.propTypes = {
 };
 exports.default = Provider;
 
-},{"react":"5pVDH","prop-types":"9yhZR","./Context":"3oLEY","../utils/Subscription":"cP482","../utils/useIsomorphicLayoutEffect":"8GGEl","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"3oLEY":[function(require,module,exports) {
+},{"react":"lFV7p","prop-types":"2T2tQ","./Context":"abumi","../utils/Subscription":"8peQa","../utils/useIsomorphicLayoutEffect":"8jdCi","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"abumi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ReactReduxContext", ()=>ReactReduxContext
@@ -27427,7 +27427,7 @@ var ReactReduxContext = /*#__PURE__*/ _reactDefault.default.createContext(null);
 ReactReduxContext.displayName = 'ReactRedux';
 exports.default = ReactReduxContext;
 
-},{"react":"5pVDH","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"cP482":[function(require,module,exports) {
+},{"react":"lFV7p","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"8peQa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createSubscription", ()=>createSubscription
@@ -27533,7 +27533,7 @@ function createSubscription(store, parentSub) {
     return subscription;
 }
 
-},{"./batch":"aEzsO","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"aEzsO":[function(require,module,exports) {
+},{"./batch":"c3qht","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"c3qht":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setBatch", ()=>setBatch
@@ -27552,7 +27552,7 @@ var getBatch = function getBatch() {
     return batch;
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"8GGEl":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"8jdCi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>useIsomorphicLayoutEffect
@@ -27560,7 +27560,7 @@ parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>useIsomorphicLayo
 var _react = require("react"); // React currently throws a warning when using useLayoutEffect on the server.
 var useIsomorphicLayoutEffect = typeof window !== 'undefined' && typeof window.document !== 'undefined' && typeof window.document.createElement !== 'undefined' ? _react.useLayoutEffect : _react.useEffect;
 
-},{"react":"5pVDH","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"9VjDK":[function(require,module,exports) {
+},{"react":"lFV7p","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"eWb2E":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _extends = require("@babel/runtime/helpers/esm/extends");
@@ -27907,11 +27907,11 @@ function connectAdvanced(/*
 }
 exports.default = connectAdvanced;
 
-},{"@babel/runtime/helpers/esm/extends":"jiNDb","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3utCP","hoist-non-react-statics":"2hnSN","react":"5pVDH","react-is":"96OE7","../utils/Subscription":"cP482","../utils/useIsomorphicLayoutEffect":"8GGEl","./Context":"3oLEY","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"96OE7":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"4VUKs","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"iJcoG","hoist-non-react-statics":"459Uj","react":"lFV7p","react-is":"4QFLf","../utils/Subscription":"8peQa","../utils/useIsomorphicLayoutEffect":"8jdCi","./Context":"abumi","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"4QFLf":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-is.development.js');
 
-},{"./cjs/react-is.development.js":"3oqUq"}],"3oqUq":[function(require,module,exports) {
+},{"./cjs/react-is.development.js":"1rEgY"}],"1rEgY":[function(require,module,exports) {
 /** @license React v17.0.2
  * react-is.development.js
  *
@@ -28100,7 +28100,7 @@ module.exports = require('./cjs/react-is.development.js');
     exports.typeOf = typeOf;
 })();
 
-},{}],"gIiO1":[function(require,module,exports) {
+},{}],"7exO1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // different options opens up some testing and extensibility scenarios
@@ -28189,7 +28189,7 @@ function createConnect(_temp) {
 }
 exports.default = /*#__PURE__*/ createConnect();
 
-},{"@babel/runtime/helpers/esm/extends":"jiNDb","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3utCP","../components/connectAdvanced":"9VjDK","../utils/shallowEqual":"lpBLD","./mapDispatchToProps":"18vTu","./mapStateToProps":"3tVMJ","./mergeProps":"9gh8e","./selectorFactory":"96Q9u","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"lpBLD":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"4VUKs","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"iJcoG","../components/connectAdvanced":"eWb2E","../utils/shallowEqual":"jn6fa","./mapDispatchToProps":"9hP7z","./mapStateToProps":"1UofD","./mergeProps":"1NO3z","./selectorFactory":"bu46c","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"jn6fa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function is(x, y) {
@@ -28209,7 +28209,7 @@ function shallowEqual(objA, objB) {
 }
 exports.default = shallowEqual;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"18vTu":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"9hP7z":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "whenMapDispatchToPropsIsFunction", ()=>whenMapDispatchToPropsIsFunction
@@ -28242,7 +28242,7 @@ exports.default = [
     whenMapDispatchToPropsIsObject
 ];
 
-},{"../utils/bindActionCreators":"kYE1a","./wrapMapToProps":"fVwWe","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"kYE1a":[function(require,module,exports) {
+},{"../utils/bindActionCreators":"3sjm5","./wrapMapToProps":"fIS9S","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"3sjm5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function bindActionCreators(actionCreators, dispatch) {
@@ -28259,7 +28259,7 @@ function bindActionCreators(actionCreators, dispatch) {
 }
 exports.default = bindActionCreators;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"fVwWe":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"fIS9S":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "wrapMapToPropsConstant", ()=>wrapMapToPropsConstant
@@ -28325,7 +28325,7 @@ function wrapMapToPropsFunc(mapToProps, methodName) {
     };
 }
 
-},{"../utils/verifyPlainObject":"4Vihs","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"4Vihs":[function(require,module,exports) {
+},{"../utils/verifyPlainObject":"jS02t","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"jS02t":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _isPlainObject = require("./isPlainObject");
@@ -28337,7 +28337,7 @@ function verifyPlainObject(value, displayName, methodName) {
 }
 exports.default = verifyPlainObject;
 
-},{"./isPlainObject":"8105D","./warning":"eK6eW","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"8105D":[function(require,module,exports) {
+},{"./isPlainObject":"aCeKW","./warning":"8OsZA","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"aCeKW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function isPlainObject(obj) {
@@ -28350,7 +28350,7 @@ function isPlainObject(obj) {
 }
 exports.default = isPlainObject;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"eK6eW":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"8OsZA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function warning(message) {
@@ -28365,7 +28365,7 @@ function warning(message) {
 /* eslint-enable no-empty */ }
 exports.default = warning;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"3tVMJ":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"1UofD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "whenMapStateToPropsIsFunction", ()=>whenMapStateToPropsIsFunction
@@ -28387,7 +28387,7 @@ exports.default = [
     whenMapStateToPropsIsMissing
 ];
 
-},{"./wrapMapToProps":"fVwWe","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"9gh8e":[function(require,module,exports) {
+},{"./wrapMapToProps":"fIS9S","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"1NO3z":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "defaultMergeProps", ()=>defaultMergeProps
@@ -28437,7 +28437,7 @@ exports.default = [
     whenMergePropsIsOmitted
 ];
 
-},{"@babel/runtime/helpers/esm/extends":"jiNDb","../utils/verifyPlainObject":"4Vihs","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"96Q9u":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"4VUKs","../utils/verifyPlainObject":"jS02t","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"bu46c":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "impureFinalPropsSelectorFactory", ()=>impureFinalPropsSelectorFactory
@@ -28520,7 +28520,7 @@ function finalPropsSelectorFactory(dispatch, _ref2) {
 }
 exports.default = finalPropsSelectorFactory;
 
-},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"3utCP","./verifySubselectors":"4lhgU","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"4lhgU":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"iJcoG","./verifySubselectors":"5VJFg","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"5VJFg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _warning = require("../utils/warning");
@@ -28538,7 +28538,7 @@ function verifySubselectors(mapStateToProps, mapDispatchToProps, mergeProps, dis
 }
 exports.default = verifySubselectors;
 
-},{"../utils/warning":"eK6eW","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"dDNKx":[function(require,module,exports) {
+},{"../utils/warning":"8OsZA","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"fZwId":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -28562,7 +28562,7 @@ function createDispatchHook(context) {
 }
 var useDispatch = /*#__PURE__*/ createDispatchHook();
 
-},{"../components/Context":"3oLEY","./useStore":"aDdAG","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"aDdAG":[function(require,module,exports) {
+},{"../components/Context":"abumi","./useStore":"5JmWL","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"5JmWL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -28589,7 +28589,7 @@ function createStoreHook(context) {
 }
 var useStore = /*#__PURE__*/ createStoreHook();
 
-},{"react":"5pVDH","../components/Context":"3oLEY","./useReduxContext":"IoYzd","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"IoYzd":[function(require,module,exports) {
+},{"react":"lFV7p","../components/Context":"abumi","./useReduxContext":"P6b40","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"P6b40":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -28617,7 +28617,7 @@ function useReduxContext() {
     return contextValue;
 }
 
-},{"react":"5pVDH","../components/Context":"3oLEY","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"dbdCz":[function(require,module,exports) {
+},{"react":"lFV7p","../components/Context":"abumi","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"6s3ZV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -28717,18 +28717,18 @@ function createSelectorHook(context) {
 }
 var useSelector = /*#__PURE__*/ createSelectorHook();
 
-},{"react":"5pVDH","./useReduxContext":"IoYzd","../utils/Subscription":"cP482","../utils/useIsomorphicLayoutEffect":"8GGEl","../components/Context":"3oLEY","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"7Em0k":[function(require,module,exports) {
+},{"react":"lFV7p","./useReduxContext":"P6b40","../utils/Subscription":"8peQa","../utils/useIsomorphicLayoutEffect":"8jdCi","../components/Context":"abumi","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"kCBGD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /* eslint-disable import/no-unresolved */ parcelHelpers.export(exports, "unstable_batchedUpdates", ()=>_reactDom.unstable_batchedUpdates
 );
 var _reactDom = require("react-dom");
 
-},{"react-dom":"2DsNV","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"ftcRp":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$6225 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-dom":"2xFY3","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"nHtxw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9cae = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$6225.prelude(module);
+$parcel$ReactRefreshHelpers$9cae.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28774,7 +28774,7 @@ function Footer({ style  }) {
         },
         className: "flex flex-col sm:flex-row px-8 py-10 justify-around items-center bg-gray-800",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Footer.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Footer.jsx",
             lineNumber: 17,
             columnNumber: 9
         },
@@ -28783,7 +28783,7 @@ function Footer({ style  }) {
             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 className: "flex-1",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Footer.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Footer.jsx",
                     lineNumber: 18,
                     columnNumber: 9
                 },
@@ -28792,7 +28792,7 @@ function Footer({ style  }) {
                     /*#__PURE__*/ _jsxRuntime.jsx("h1", {
                         className: "text-white font-bold",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Footer.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Footer.jsx",
                             lineNumber: 19,
                             columnNumber: 13
                         },
@@ -28802,7 +28802,7 @@ function Footer({ style  }) {
                     /*#__PURE__*/ _jsxRuntime.jsx("span", {
                         className: "text-justify text-sm text-gray-400",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Footer.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Footer.jsx",
                             lineNumber: 20,
                             columnNumber: 13
                         },
@@ -28814,7 +28814,7 @@ function Footer({ style  }) {
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: "flex justify-center flex-1 sm:pl-8",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Footer.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Footer.jsx",
                     lineNumber: 24,
                     columnNumber: 9
                 },
@@ -28822,7 +28822,7 @@ function Footer({ style  }) {
                 children: /*#__PURE__*/ _jsxRuntime.jsx("ul", {
                     className: "text-center sm:text-left mt-3 sm:mt-0",
                     __source: {
-                        fileName: "Desktop/desainweb-kelompok3/src/Footer.jsx",
+                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Footer.jsx",
                         lineNumber: 25,
                         columnNumber: 13
                     },
@@ -28831,7 +28831,7 @@ function Footer({ style  }) {
                         ...navs
                     ].map((item, index)=>/*#__PURE__*/ _jsxRuntime.jsx("li", {
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Footer.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Footer.jsx",
                                 lineNumber: 28,
                                 columnNumber: 21
                             },
@@ -28840,7 +28840,7 @@ function Footer({ style  }) {
                                 to: item.url,
                                 className: "mt-0 text-white hover:text-gray-400 text-sm pt-2 underline",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Footer.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Footer.jsx",
                                     lineNumber: 29,
                                     columnNumber: 25
                                 },
@@ -28859,12 +28859,12 @@ _c = Footer;
 var _c;
 $RefreshReg$(_c, "Footer");
 
-  $parcel$ReactRefreshHelpers$6225.postlude(module);
+  $parcel$ReactRefreshHelpers$9cae.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","./styles/footer.css":"jag4c","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX","react-router-dom":"g87DC"}],"jag4c":[function() {},{}],"73XT6":[function(require,module,exports) {
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","react-router-dom":"3yurn","./styles/footer.css":"9Yn7x","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"9Yn7x":[function() {},{}],"7Brlw":[function(require,module,exports) {
 !function(t, e) {
     "object" == typeof exports && "object" == typeof module ? module.exports = e(require("react")) : "function" == typeof define && define.amd ? define([
         "react"
@@ -30650,11 +30650,11 @@ $RefreshReg$(_c, "Footer");
     ]);
 });
 
-},{"react":"5pVDH"}],"iSKIY":[function() {},{}],"7iHE4":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$07e1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react":"lFV7p"}],"jBPhf":[function() {},{}],"geSZB":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$d8b9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$07e1.prelude(module);
+$parcel$ReactRefreshHelpers$d8b9.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -30678,7 +30678,7 @@ function Card({ judul , urlGambar , tujuan , konten  }) {
         to: tujuan,
         className: "text-green-900",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
             lineNumber: 13,
             columnNumber: 5
         },
@@ -30689,7 +30689,7 @@ function Card({ judul , urlGambar , tujuan , konten  }) {
                 width: 300
             },
             __source: {
-                fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                 lineNumber: 14,
                 columnNumber: 9
             },
@@ -30700,7 +30700,7 @@ function Card({ judul , urlGambar , tujuan , konten  }) {
                     className: "rounded-tl-md rounded-tr-md",
                     width: 400,
                     __source: {
-                        fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                         lineNumber: 15,
                         columnNumber: 13
                     },
@@ -30712,7 +30712,7 @@ function Card({ judul , urlGambar , tujuan , konten  }) {
                     },
                     className: "p-4",
                     __source: {
-                        fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                         lineNumber: 16,
                         columnNumber: 13
                     },
@@ -30721,7 +30721,7 @@ function Card({ judul , urlGambar , tujuan , konten  }) {
                         /*#__PURE__*/ _jsxRuntime.jsx("span", {
                             className: "text-sm font-bold",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                 lineNumber: 17,
                                 columnNumber: 13
                             },
@@ -30730,7 +30730,7 @@ function Card({ judul , urlGambar , tujuan , konten  }) {
                         }),
                         /*#__PURE__*/ _jsxRuntime.jsx("br", {
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                 lineNumber: 18,
                                 columnNumber: 13
                             },
@@ -30738,7 +30738,7 @@ function Card({ judul , urlGambar , tujuan , konten  }) {
                         }),
                         /*#__PURE__*/ _jsxRuntime.jsx("span", {
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                 lineNumber: 19,
                                 columnNumber: 13
                             },
@@ -30761,7 +30761,7 @@ function Provinsi(props) {
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         className: "flex flex-col",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
             lineNumber: 32,
             columnNumber: 9
         },
@@ -30771,7 +30771,7 @@ function Provinsi(props) {
                 lambang: provData.logo,
                 history: props.history,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                     lineNumber: 33,
                     columnNumber: 13
                 },
@@ -30781,7 +30781,7 @@ function Provinsi(props) {
             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 className: "flex-grow",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                     lineNumber: 34,
                     columnNumber: 13
                 },
@@ -30790,7 +30790,7 @@ function Provinsi(props) {
                     /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                         className: "flex mx-20 mt-5",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                             lineNumber: 35,
                             columnNumber: 17
                         },
@@ -30799,7 +30799,7 @@ function Provinsi(props) {
                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                 className: "flex-1 pr-10",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                     lineNumber: 36,
                                     columnNumber: 21
                                 },
@@ -30812,7 +30812,7 @@ function Provinsi(props) {
                                         },
                                         src: provData.cover,
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                             lineNumber: 37,
                                             columnNumber: 21
                                         },
@@ -30821,7 +30821,7 @@ function Provinsi(props) {
                                     /*#__PURE__*/ _jsxRuntime.jsx("span", {
                                         className: "text-3xl font-bold mt-2",
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                             lineNumber: 38,
                                             columnNumber: 25
                                         },
@@ -30830,7 +30830,7 @@ function Provinsi(props) {
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsx("br", {
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                             lineNumber: 38,
                                             columnNumber: 90
                                         },
@@ -30838,7 +30838,7 @@ function Provinsi(props) {
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsx("span", {
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                             lineNumber: 39,
                                             columnNumber: 25
                                         },
@@ -30850,7 +30850,7 @@ function Provinsi(props) {
                             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                                 className: "flex-none",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                     lineNumber: 41,
                                     columnNumber: 21
                                 },
@@ -30859,7 +30859,7 @@ function Provinsi(props) {
                                     src: provData.logo,
                                     width: "200",
                                     __source: {
-                                        fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                         lineNumber: 42,
                                         columnNumber: 25
                                     },
@@ -30871,7 +30871,7 @@ function Provinsi(props) {
                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
                         className: "flex bg-green-200 justify-around mt-10 p-10",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                             lineNumber: 45,
                             columnNumber: 17
                         },
@@ -30895,7 +30895,7 @@ function Provinsi(props) {
                                 urlGambar: provData[id]["gambar"],
                                 tujuan: "/budaya/" + id + "-" + prov,
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                                     lineNumber: 48,
                                     columnNumber: 25
                                 },
@@ -30907,7 +30907,7 @@ function Provinsi(props) {
             }),
             /*#__PURE__*/ _jsxRuntime.jsx(_footerDefault.default, {
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Provinsi.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Provinsi.jsx",
                     lineNumber: 52,
                     columnNumber: 13
                 },
@@ -30928,16 +30928,16 @@ var _c, _c1;
 $RefreshReg$(_c, "Card");
 $RefreshReg$(_c1, "Provinsi");
 
-  $parcel$ReactRefreshHelpers$07e1.postlude(module);
+  $parcel$ReactRefreshHelpers$d8b9.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","react-router-dom":"g87DC","./Header":"bWBwR","./styles/provinsi.css":"9tb9O","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX","react-redux":"iVUrg","./Footer":"ftcRp"}],"9tb9O":[function() {},{}],"edbs3":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1878 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","react-router-dom":"3yurn","./Header":"8YlC5","react-redux":"7CwZv","./styles/provinsi.css":"55GTZ","./Footer":"nHtxw","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"55GTZ":[function() {},{}],"1wLDM":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$917f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1878.prelude(module);
+$parcel$ReactRefreshHelpers$917f.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -30992,7 +30992,7 @@ function Budaya({ history  }) {
     return budaya ? /*#__PURE__*/ _jsxRuntime.jsxs("div", {
         className: "flex flex-col h-screen",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
             lineNumber: 35,
             columnNumber: 22
         },
@@ -31003,7 +31003,7 @@ function Budaya({ history  }) {
                 lambang: budaya.logo,
                 history: history,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
                     lineNumber: 36,
                     columnNumber: 9
                 },
@@ -31013,7 +31013,7 @@ function Budaya({ history  }) {
             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 className: "flex-grow",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
                     lineNumber: 37,
                     columnNumber: 9
                 },
@@ -31022,7 +31022,7 @@ function Budaya({ history  }) {
                     /*#__PURE__*/ _jsxRuntime.jsxs("h1", {
                         className: "text-xl font-bold title py-5",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
                             lineNumber: 38,
                             columnNumber: 13
                         },
@@ -31035,7 +31035,7 @@ function Budaya({ history  }) {
                     }),
                     /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
                             lineNumber: 39,
                             columnNumber: 13
                         },
@@ -31046,7 +31046,7 @@ function Budaya({ history  }) {
                                     textAlign: "center"
                                 },
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
                                     lineNumber: 40,
                                     columnNumber: 17
                                 },
@@ -31055,7 +31055,7 @@ function Budaya({ history  }) {
                                     src: budaya.content ? budaya.content.gambar : "",
                                     alt: "",
                                     __source: {
-                                        fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+                                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
                                         lineNumber: 41,
                                         columnNumber: 21
                                     },
@@ -31067,7 +31067,7 @@ function Budaya({ history  }) {
                                     __html: budaya.content ? budaya.content.paragraf : ""
                                 },
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
                                     lineNumber: 43,
                                     columnNumber: 17
                                 },
@@ -31079,7 +31079,7 @@ function Budaya({ history  }) {
             }),
             /*#__PURE__*/ _jsxRuntime.jsx(_footerDefault.default, {
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Budaya.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Budaya.jsx",
                     lineNumber: 46,
                     columnNumber: 9
                 },
@@ -31100,16 +31100,16 @@ _c = Budaya;
 var _c;
 $RefreshReg$(_c, "Budaya");
 
-  $parcel$ReactRefreshHelpers$1878.postlude(module);
+  $parcel$ReactRefreshHelpers$917f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","react-router-dom":"g87DC","./Header":"bWBwR","./styles/budaya.css":"6exIk","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX","react-redux":"iVUrg","./Footer":"ftcRp"}],"6exIk":[function() {},{}],"9ZOPj":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$7f14 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","react-router-dom":"3yurn","react-redux":"7CwZv","./Header":"8YlC5","./Footer":"nHtxw","./styles/budaya.css":"cOm89","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"cOm89":[function() {},{}],"5pqKh":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e6ed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7f14.prelude(module);
+$parcel$ReactRefreshHelpers$e6ed.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -31126,7 +31126,7 @@ function About(props) {
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         className: "flex flex-col",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
             lineNumber: 8,
             columnNumber: 13
         },
@@ -31135,7 +31135,7 @@ function About(props) {
             /*#__PURE__*/ _jsxRuntime.jsx(_headerDefault.default, {
                 history: props.history,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                     lineNumber: 9,
                     columnNumber: 9
                 },
@@ -31145,7 +31145,7 @@ function About(props) {
             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 className: "flex-grow",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                     lineNumber: 10,
                     columnNumber: 9
                 },
@@ -31155,7 +31155,7 @@ function About(props) {
                         className: "logoabout",
                         src: "/Borneo-pas.png",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                             lineNumber: 11,
                             columnNumber: 13
                         },
@@ -31164,14 +31164,14 @@ function About(props) {
                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
                         className: "isi",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                             lineNumber: 12,
                             columnNumber: 13
                         },
                         __self: this,
                         children: /*#__PURE__*/ _jsxRuntime.jsx("p", {
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                 lineNumber: 13,
                                 columnNumber: 13
                             },
@@ -31182,7 +31182,7 @@ function About(props) {
                     /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                         className: "kelompok",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                             lineNumber: 19,
                             columnNumber: 13
                         },
@@ -31190,7 +31190,7 @@ function About(props) {
                         children: [
                             /*#__PURE__*/ _jsxRuntime.jsx("h3", {
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                     lineNumber: 20,
                                     columnNumber: 13
                                 },
@@ -31200,7 +31200,7 @@ function About(props) {
                             /*#__PURE__*/ _jsxRuntime.jsxs("ol", {
                                 className: "list-decimal",
                                 __source: {
-                                    fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                     lineNumber: 21,
                                     columnNumber: 13
                                 },
@@ -31208,7 +31208,7 @@ function About(props) {
                                 children: [
                                     /*#__PURE__*/ _jsxRuntime.jsx("li", {
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                             lineNumber: 22,
                                             columnNumber: 17
                                         },
@@ -31217,7 +31217,7 @@ function About(props) {
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsx("li", {
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                             lineNumber: 23,
                                             columnNumber: 17
                                         },
@@ -31226,7 +31226,7 @@ function About(props) {
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsx("li", {
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                             lineNumber: 24,
                                             columnNumber: 17
                                         },
@@ -31235,7 +31235,7 @@ function About(props) {
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsx("li", {
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                             lineNumber: 25,
                                             columnNumber: 17
                                         },
@@ -31244,7 +31244,7 @@ function About(props) {
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsx("li", {
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                             lineNumber: 26,
                                             columnNumber: 17
                                         },
@@ -31253,7 +31253,7 @@ function About(props) {
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsx("li", {
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                                             lineNumber: 27,
                                             columnNumber: 17
                                         },
@@ -31268,7 +31268,7 @@ function About(props) {
             }),
             /*#__PURE__*/ _jsxRuntime.jsx(_footerDefault.default, {
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/About.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/About.jsx",
                     lineNumber: 31,
                     columnNumber: 9
                 },
@@ -31282,16 +31282,16 @@ _c = About;
 var _c;
 $RefreshReg$(_c, "About");
 
-  $parcel$ReactRefreshHelpers$7f14.postlude(module);
+  $parcel$ReactRefreshHelpers$e6ed.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","./Header":"bWBwR","./Footer":"ftcRp","./styles/about.css":"e1Aqb","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX"}],"e1Aqb":[function() {},{}],"kkzAS":[function() {},{}],"htkAA":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$d951 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","./Header":"8YlC5","./Footer":"nHtxw","./styles/about.css":"af9tN","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"af9tN":[function() {},{}],"c4Zll":[function() {},{}],"4nOLA":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$df53 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$d951.prelude(module);
+$parcel$ReactRefreshHelpers$df53.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -31356,7 +31356,7 @@ function Search({ history  }) {
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         className: "flex-col flex h-screen",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
             lineNumber: 38,
             columnNumber: 13
         },
@@ -31366,7 +31366,7 @@ function Search({ history  }) {
                 query: query,
                 history: history,
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                     lineNumber: 39,
                     columnNumber: 9
                 },
@@ -31376,7 +31376,7 @@ function Search({ history  }) {
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: "flex flex-grow items-center justify-center py-4",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                     lineNumber: 40,
                     columnNumber: 9
                 },
@@ -31384,7 +31384,7 @@ function Search({ history  }) {
                 children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                     className: "bg-gray-900 text-white py-10 px-40 rounded-xl",
                     __source: {
-                        fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                         lineNumber: 41,
                         columnNumber: 13
                     },
@@ -31393,7 +31393,7 @@ function Search({ history  }) {
                         /*#__PURE__*/ _jsxRuntime.jsxs("h3", {
                             className: "text-2xl font-bold",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                                 lineNumber: 42,
                                 columnNumber: 13
                             },
@@ -31406,7 +31406,7 @@ function Search({ history  }) {
                         /*#__PURE__*/ _jsxRuntime.jsx("div", {
                             className: "grid grid-cols-2 gap-3",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                                 lineNumber: 43,
                                 columnNumber: 13
                             },
@@ -31417,7 +31417,7 @@ function Search({ history  }) {
                                 return(/*#__PURE__*/ _jsxRuntime.jsx("div", {
                                     className: "",
                                     __source: {
-                                        fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                                         lineNumber: 46,
                                         columnNumber: 29
                                     },
@@ -31430,7 +31430,7 @@ function Search({ history  }) {
                                             display: 'block'
                                         },
                                         __source: {
-                                            fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                                             lineNumber: 47,
                                             columnNumber: 21
                                         },
@@ -31438,7 +31438,7 @@ function Search({ history  }) {
                                         children: [
                                             /*#__PURE__*/ _jsxRuntime.jsxs("span", {
                                                 __source: {
-                                                    fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                                                     lineNumber: 48,
                                                     columnNumber: 21
                                                 },
@@ -31456,7 +31456,7 @@ function Search({ history  }) {
                                                 },
                                                 alt: "",
                                                 __source: {
-                                                    fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                                                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                                                     lineNumber: 49,
                                                     columnNumber: 21
                                                 },
@@ -31472,7 +31472,7 @@ function Search({ history  }) {
             }),
             /*#__PURE__*/ _jsxRuntime.jsx(_footerDefault.default, {
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Search.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Search.jsx",
                     lineNumber: 58,
                     columnNumber: 9
                 },
@@ -31492,16 +31492,16 @@ _c = Search;
 var _c;
 $RefreshReg$(_c, "Search");
 
-  $parcel$ReactRefreshHelpers$d951.postlude(module);
+  $parcel$ReactRefreshHelpers$df53.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","react-router-dom":"g87DC","react-redux":"iVUrg","./Header":"bWBwR","./styles/search.css":"iJXFk","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX","./Footer":"ftcRp"}],"iJXFk":[function() {},{}],"bnpEJ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$8318 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","react-router-dom":"3yurn","react-redux":"7CwZv","./Header":"8YlC5","./styles/search.css":"fHlQ0","./Footer":"nHtxw","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"fHlQ0":[function() {},{}],"K9I1b":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$dad9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8318.prelude(module);
+$parcel$ReactRefreshHelpers$dad9.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -31518,7 +31518,7 @@ function Login({ history  }) {
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         className: "flex flex-col h-screen bg-gray-400",
         __source: {
-            fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
             lineNumber: 11,
             columnNumber: 5
         },
@@ -31527,7 +31527,7 @@ function Login({ history  }) {
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: "p-2",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                     lineNumber: 12,
                     columnNumber: 9
                 },
@@ -31536,7 +31536,7 @@ function Login({ history  }) {
                     onMouseUp: ()=>history.goBack()
                     ,
                     __source: {
-                        fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                         lineNumber: 13,
                         columnNumber: 13
                     },
@@ -31545,7 +31545,7 @@ function Login({ history  }) {
                         src: "/back.svg",
                         className: "w-10 bg-white hover:bg-gray-200 rounded-3xl shadow-lg p-2",
                         __source: {
-                            fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                            fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                             lineNumber: 13,
                             columnNumber: 54
                         },
@@ -31556,7 +31556,7 @@ function Login({ history  }) {
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: "flex justify-center items-center flex-grow mb-5",
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                     lineNumber: 15,
                     columnNumber: 9
                 },
@@ -31564,7 +31564,7 @@ function Login({ history  }) {
                 children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                     className: "flex focus:border-0 flex-col shadow-lg items-center rounded-xl justify-around bg-white w-30 px-20 py-20 my-5",
                     __source: {
-                        fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                        fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                         lineNumber: 16,
                         columnNumber: 13
                     },
@@ -31573,7 +31573,7 @@ function Login({ history  }) {
                         /*#__PURE__*/ _jsxRuntime.jsx("h1", {
                             className: "mb-8 font-bold text-2xl",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                                 lineNumber: 17,
                                 columnNumber: 17
                             },
@@ -31585,7 +31585,7 @@ function Login({ history  }) {
                             type: "text",
                             placeholder: "Username",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                                 lineNumber: 18,
                                 columnNumber: 17
                             },
@@ -31596,7 +31596,7 @@ function Login({ history  }) {
                             type: "password",
                             placeholder: "Password",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                                 lineNumber: 19,
                                 columnNumber: 17
                             },
@@ -31609,7 +31609,7 @@ function Login({ history  }) {
                             className: "text-black hover:underline",
                             to: "",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                                 lineNumber: 20,
                                 columnNumber: 17
                             },
@@ -31619,7 +31619,7 @@ function Login({ history  }) {
                         /*#__PURE__*/ _jsxRuntime.jsx("button", {
                             className: "px-4 py-2 hover:bg-gray-900 rounded-md mt-2 bg-black text-white hover:text-gray-300 font-bold",
                             __source: {
-                                fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                                fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                                 lineNumber: 21,
                                 columnNumber: 17
                             },
@@ -31631,7 +31631,7 @@ function Login({ history  }) {
             }),
             /*#__PURE__*/ _jsxRuntime.jsx(_footerDefault.default, {
                 __source: {
-                    fileName: "Desktop/desainweb-kelompok3/src/Login.jsx",
+                    fileName: "Documents/DESAIN WEB/desainweb-kelompok3/src/Login.jsx",
                     lineNumber: 24,
                     columnNumber: 5
                 },
@@ -31645,12 +31645,12 @@ _c = Login;
 var _c;
 $RefreshReg$(_c, "Login");
 
-  $parcel$ReactRefreshHelpers$8318.postlude(module);
+  $parcel$ReactRefreshHelpers$dad9.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"cB2Kq","react":"5pVDH","./styles/login.css":"bapjl","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"hOibX","./Footer":"ftcRp","react-router-dom":"g87DC"}],"bapjl":[function() {},{}],"hvk2z":[function(require,module,exports) {
+},{"react/jsx-runtime":"goSQe","react":"lFV7p","./Footer":"nHtxw","react-router-dom":"3yurn","./styles/login.css":"aYVBK","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"72jMI"}],"aYVBK":[function() {},{}],"hQ50j":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Action", ()=>r
@@ -32132,7 +32132,7 @@ function createMemoryHistory(b) {
     };
 }
 
-},{"@babel/runtime/helpers/esm/extends":"jiNDb","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"6SN6V":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"4VUKs","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"iQqIh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Type", ()=>Type
@@ -32167,7 +32167,7 @@ let reducer = (state = initialState, { type , value  })=>{
 };
 exports.default = _redux.createStore(reducer);
 
-},{"redux":"8yYhr","./data":"4YkNv","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"8yYhr":[function(require,module,exports) {
+},{"redux":"6F4NI","./data":"dFhUZ","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"6F4NI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "__DO_NOT_USE__ActionTypes", ()=>ActionTypes
@@ -32669,7 +32669,7 @@ function bindActionCreator(actionCreator, dispatch) {
 }
 if (typeof isCrushed.name === 'string' && isCrushed.name !== 'isCrushed') warning("You are currently using minified code outside of NODE_ENV === \"production\". This means that you are running a slower development build of Redux. You can use loose-envify (https://github.com/zertosh/loose-envify) for browserify or setting mode to production in webpack (https://webpack.js.org/concepts/mode/) to ensure you have the correct code for your production build.");
 
-},{"@babel/runtime/helpers/esm/objectSpread2":"5DsJh","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"5DsJh":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/objectSpread2":"9pfkL","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"9pfkL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _definePropertyJs = require("./defineProperty.js");
@@ -32701,7 +32701,7 @@ function _objectSpread2(target) {
 }
 exports.default = _objectSpread2;
 
-},{"./defineProperty.js":"2budF","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"2budF":[function(require,module,exports) {
+},{"./defineProperty.js":"hMDag","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"hMDag":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _defineProperty(obj, key, value) {
@@ -32716,7 +32716,7 @@ function _defineProperty(obj, key, value) {
 }
 exports.default = _defineProperty;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"4YkNv":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"dFhUZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // Kalbar
@@ -32802,51 +32802,51 @@ exports.default = {
     }
 };
 
-},{"./kalbar/baju-adat.json":"OumBB","./kalbar/rumah-adat.json":"lD6q0","./kalbar/tari-adat.json":"e5pFR","./kaltim/baju-adat.json":"dl6Gs","./kaltim/rumah-adat.json":"ldXXO","./kaltim/tari-adat.json":"ktvNC","./kalteng/baju-adat.json":"5BQPA","./kalteng/rumah-adat.json":"7KN6b","./kalteng/tari-adat.json":"jeG4c","./kaltara/baju-adat.json":"jczkw","./kaltara/rumah-adat.json":"h3mEm","./kaltara/tari-adat.json":"28EgK","./kalsel/baju-adat.json":"5g4py","./kalsel/rumah-adat.json":"lGSqa","./kalsel/tari-adat.json":"eCm6I","@parcel/transformer-js/src/esmodule-helpers.js":"k5piN"}],"OumBB":[function(require,module,exports) {
+},{"./kalbar/baju-adat.json":"lIksT","./kalbar/rumah-adat.json":"bq6CQ","./kalbar/tari-adat.json":"eTw3p","./kaltim/baju-adat.json":"gaXRV","./kaltim/rumah-adat.json":"9cd4P","./kaltim/tari-adat.json":"2Z68f","./kalteng/baju-adat.json":"1FaQY","./kalteng/rumah-adat.json":"6WXIF","./kalteng/tari-adat.json":"5g7Gh","./kaltara/baju-adat.json":"9dxo1","./kaltara/rumah-adat.json":"31oFJ","./kaltara/tari-adat.json":"iDXwz","./kalsel/baju-adat.json":"jkEpG","./kalsel/rumah-adat.json":"fnN8E","./kalsel/tari-adat.json":"dhIEp","@parcel/transformer-js/src/esmodule-helpers.js":"6Rul2"}],"lIksT":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Baju Adat Kalimantan Barat\",\"gambar\":\"https://sintesakonveksi.com/info/wp-content/uploads/2021/03/Nama-Pakaian-Adat-Kalimantan-Barat.jpg\",\"paragraf\":\"Pakaian adat King Baba berbentuk seperti rompi yang menggunakan kain khas terbuat dari kulit kayu kapuo serta dihiasi manik-manik berwarna jingga dan merah. Sedangkan untuk pakaian adat perempuan King Bibinge terbuat dari bahan yang sama tapi menutupi hingga bagian dada dan pundak. Dikutip dari buku Pakaian Adat Tradisional Daerah Provinsi Kalimantan Barat (1990), pakaian adat laki-laki disebut King Baba dan untuk perempuan disebut King Bibinge. Pengertian King pada King Baba dimaksudkan adalah cawat, sementara King pada King Bibinge artinya hampir sama dengan pengertian rok. Pakaian adat tersebut terbuat dari kulit kayu yaitu kayu gantiingan dan kayu talong.\",\"kembali\":\"/provinsi/kalimantan-barat.html\"}");
 
-},{}],"lD6q0":[function(require,module,exports) {
+},{}],"bq6CQ":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Rumah Adat Kalimantan Barat\",\"gambar\":\"https://pariwisataindonesia.id/wp-content/uploads/2020/06/Rumah-adat-Panjang-foto-budayaindonesiaaa.wordpress.com_.jpg\",\"paragraf\":\"Rumah Panjang (rumah Radank) adalah salah satu rumah adat dari daerah Kalimantan Barat. Rumah Panjang adalah ciri khas dari masyarakat Dayak yang tinggal di daerah Kalimantan Barat. Hal ini dikarenakan rumah panjang adalah gambaran sosial kehidupan masyarakat Dayak di Kalimantan Barat. Rumah panjang juga merupakan pusat kehidupan dari masyarakat Dayak. Rumah Radakng, berdiri di jalan di komplek perkampungan budaya di Jl Sutan Syahrir Kota Baru Pontianak, menjadi rumah adat terbesar yang ada di Indonesia serta menjadi landmark kota Pontianak selain Tugu Khatulistiwa.\",\"kembali\":\"/provinsi/kalimantan-barat.html\"}");
 
-},{}],"e5pFR":[function(require,module,exports) {
+},{}],"eTw3p":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Tarian Adat Kalimantan Barat\",\"gambar\":\"https://1.bp.blogspot.com/-wLrDJAtDXWQ/VpEFWvnpD-I/AAAAAAAAAY8/ihXz_M8Hid8/s1600/tari%2Bmonong%2Bmanang.jpg\",\"paragraf\":\"Tari Monong ialah salah satu Tarian di Kalimantan Barat yang bertujuan untuk pengobatan penyakit bagi salah satu warga dari Suku Dayak agar memperoleh kesembuhan. Dahulunya, tarian ini dilakukan khusus oleh dukun atau sesepuh yang dituakan di Suku Dayak dengan tari sambil membaca mantra-mantra tertentu. Dalam pelaksanaannya, keluarga dari penderita yang sedang sakit harus hadir dalam prosesi pembacaan mantra tolak bala penyakit tersebut dan mengikutinya. Dengan diiringi beberpa alat musik tradisional, jampi-jampi diiringi tarian sengaja dikukuhkan kepada Sang Pencipta untuk mendapatkan kesembuhan penyakit dari si penderita.\",\"kembali\":\"/provinsi/kalimantan-barat.html\"}");
 
-},{}],"dl6Gs":[function(require,module,exports) {
+},{}],"gaXRV":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Baju Adat Kalimantan Timur\",\"gambar\":\"https://guratgarut.com/wp-content/uploads/2020/02/Tari-Gantar-Kalimantan-Timur-1200x900-1.jpg\",\"paragraf\":[\" Pakaian adat Kalimantan Timur ini terdiri dari tiga ragam yaitu baju takwo biasa, takwo kustim dan takwo sebelah. Busana takwo laki-laki disebut baju takwo laki, dan untuk perempuan dinamakan baju takwo bini. Baju takwo laki berbentuk jas tutup berkerah tinggi. Suku Dayak Kenyah mempunyai busana adat yang disebut dengan busana sapei sapaq untuk kaum pria dan busana ta’a untuk kaum wanita. Pada kaum wanita busana ta’a terdiri dari semacam ikat kepala yang disebut da’a yang terbuat dari pandan. Baju atasan ini disebut dengan sapei inoq serta bawahan yang disebut ta’a yang berupa rok. Pada kaum pria, busana yang digunakan tidak jauh berbeda coraknya dengan busana kaum wanita. Hanya pada bagian atasan baju sapei sapaq dibuat berbentuk rompi yang ditambah dengan paduan busana bahawan berupa cawat yang diberi nama abet kaboq. Bawahan tersebut semacam celana pendek yang ditambah aksesoris berupa mandau yang diikat di pinggang.\"],\"kembali\":\"/provinsi/kalimantan-timur.html\"}");
 
-},{}],"ldXXO":[function(require,module,exports) {
+},{}],"9cd4P":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Rumah Adat Kalimantan Timur\",\"gambar\":\"https://cdn-cms.pgimgs.com/static/2019/10/9-Ciri-Khas-Rumah-Adat-Kalimantan-Timur.png\",\"paragraf\":\"Rumah adat Lamin merupakan sebutan rumah adat suku Dayak dari etnis Benuaq di Kalimantan Timur. Sama halnya rumah adat suku Dayak di Kalimantan lainnya, rumah adat Lamin juga berbentuk panggung dengan memiliki panjang sekitar 300 meter, lebar 15 meter, dan tinggi mencapai 3 meter. Rumah Lamin biasa dihuni oleh 25 hingga 30 kepala keluarga atau bisa menampung sekitar 100 orang. Rumah Lamin dibuat dengan menggunakan kayu ulin.\",\"kembali\":\"/provinsi/kalimantan-timur.html\"}");
 
-},{}],"ktvNC":[function(require,module,exports) {
+},{}],"2Z68f":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Tarian Adat Kalimantan Timur\",\"gambar\":\"https://i1.wp.com/www.silontong.com/wp-content/uploads/2018/09/Info-terkait-tentang-Tari-Burung-Enggang-dari-Kalimantan-Timur-yang-unik.jpg?w=549&ssl=1\",\"paragraf\":[\"Tarian Burung Enggang atau Tari Enggang adalah tarian khas suku Dayak Kenyah dari daerah Kalimantan Timur. Pada pementasannya, tarian ini diperankan oleh sekelompok gadis suku dayak dengan mengenakan hiasan dikepala bermotif burung Enggang. Tarian ini menjadi tarian wajib, dan selalu ditarikan oleh masyarakat setempat.<br>\",\"Menurut kepercayaan yang berkembang di orang Dayak Kenyah bahwa nenek moyang mereka berasal dari langit dan turun ke bumi menyerupai burung Enggang. Sebab itu, masyarakat dayak Kenyah sangat menghormati dan memuliakan burung Enggang. Tari Enggang dapat dimaknakan sebagai penghormatan Suku Dayak Kenyah terhadap asal usul dan sejarah leluhur mereka. Bulu-bulu Burung Enggang ini selalu memegang peranan yang penting pada setiap upacara – upacara adat dan tarian-tarian adat dan juga bentuk – bentuk Burung Enggang banyak terdapat pada ukiran-ukiran suku Dayak Kenyah.\"],\"kembali\":\"/provinsi/kalimantan-timur.html\"}");
 
-},{}],"5BQPA":[function(require,module,exports) {
+},{}],"1FaQY":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Baju Adat Kalimantan Tengah\",\"gambar\":\"https://www.selasar.com/wp-content/uploads/2020/08/Pakaian-Adat-Kalimantan-Tengah.jpeg\",\"paragraf\":\"Adapun pakaian adat Kalimantan Tengah memiliki nama dan bentuk yang khas. Material pembuatnya pun masih sangat tradisional dan beberapa bersumber dari alam. Baju Berantai merupakan baju dari Dayak Ngaju yang menurut penelitian merupakan pakaian untuk zirah. Terbuat dari besi menunjukkan jika baju ini digunakan untuk aktivitas seperti perang. Besi bersi tersebut dalam bentuk potongan yang kemudian dirangkai hingga menjadi baju. Baju ini diperkirakan menjadi pakaian yang telah dipengaruhi oleh budaya dari luar. Dalam hal ini yang paling diutamakan adalah pengaruh budaya dari suku Moro Filiphina.\",\"kembali\":\"/provinsi/kalimantan-tengah.html\"}");
 
-},{}],"7KN6b":[function(require,module,exports) {
+},{}],"6WXIF":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Rumah Adat Kalimantan Tengah\",\"gambar\":\"https://pariwisataindonesia.id/wp-content/uploads/2020/06/Rumah-Adat-Betang-foto-youtube.com_.jpg\",\"paragraf\":\"Kalimantan Tengah sendiri termasuk ke dalam salah satu daerah yang mempunyai pemandangan yang indah, lengkap dengan suku dan budayanya yang menarik untuk dipelajari. Rumah Adat Betang Sei Pasah ini diambil namanya dari desa tepat terletaknya rumah adat ini. Yakni berada di Desa Sei Pasah, Kapuas Hilir,Kalimantan Tengah. Rumah ini sebenarnya merupakan rumah lama yang telah mengalami pemugaran kembali. Karena bangunan lamanya sudah lapuk dan hanya menyisakan tiangnaya saja. Dimana sebelumnya rumah tradisional ini merupakan miliki Talining E Toepak yang mengalami keterbatasan bahan baku. Rumah Betang merupakan rumah adat Kalimantan yang terdapat di berbagai belahan Kalimantan dan dihuni oleh masyarakat Dayak terutama sekitar daerah hulu sungai yang biasanya menjadi pusat pemukiman suku Dayak.\",\"kembali\":\"/provinsi/kalimantan-tengah.html\"}");
 
-},{}],"jeG4c":[function(require,module,exports) {
+},{}],"5g7Gh":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Tarian Adat Kalimantan Tengah\",\"gambar\":\"https://i2.wp.com/budayalokal.id/wp-content/uploads/2018/09/tari-kinyah-mandau.png?w=500&ssl=1\",\"paragraf\":\"Tarian Kalimantan Tengah pertama yang akan kami ulas adalah tari kinyah mandau yang memiliki ciri khas unsur bela diri, seni teatrikal dan seni perang dalam tariannya. Nama tarian ini diambil dari kata kinyah yang berarti tarian perang dengan menggunakan senjata mandau. Dulunya, tarian adat Kalimantan Tengah ini digunakan dalam persiapan membunuh dan memburu kepala musuh. Para pemuda Dayak dulu memang berburu kepala dengan banyak alasan berbeda untuk setiap sub suku. Tarian kinyah ini digunakan sebagai persiapan fisik sebelum perburuan akan dimulai.\",\"kembali\":\"/provinsi/kalimantan-tengah.html\"}");
 
-},{}],"jczkw":[function(require,module,exports) {
+},{}],"9dxo1":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Baju Adat Kalimantan Utara\",\"gambar\":\"https://asset.kompas.com/crops/MRXqL0nDt31tKqrP3OR4B-W4jvM=/1x8:483x329/750x500/data/photo/2021/02/26/6038b0664992e.jpg\",\"paragraf\":[\"Pakaian adat Kalimantan Utara bernama Ta’ a dan Sapei Sapaq. Pakaian Ta’a merupakan pakaian adat yang khusus dikenakan oleh kaum wanita Dayak di Kalimantan Utara. Pakaian ini terbuat dari kain beludru berwarna hitam dengan pernik atau hiasan berupa manik-manik yang dijahit.\",\"Baju Ta’a terdiri dari: \",\"<ol>\",\"<li>Atasan dengan model menyerupai rompi (tanpa lengan),</li>\",\"<li>Bagian bawah berupa rok dengan warna dan motif yang sama,</li>\",\"<li>Serta penutup kepala berhias bulu burung enggang, dan aksesoris lainnya seperti gelang, kalung, dan manik-manik.</li>\",\"</ol>\",\"Motif hiasan rompi dan rok Ta’a kental dengan campuran warna-warna mencolok seperti putih, hijau, biru, merah, dan warna kontras lainnya. Di bagian dada dan lengannya dilengkapi rumbai-rumbai dengan warna motif yang sama dengan rompi.\",\"Perbedaan antara pakaian Sapei Sapaq dan Ta’a terletak pada motifnya. Untuk motif pakaian adat Kalimantan Utara, baik pada baju Ta’a maupun Sapei Sapaq sebenarnya terbagi menjadi 3, yaitu:\",\"<ol>\",\"<li>Motif burung enggang,</li>\",\"<li>Motif harimau atau hewan lainnya,</li>\",\"<li>Serta motif tumbuhan.</li>\",\"</ol>\",\"Baju dengan motif burung enggang dan harimau biasanya diperuntukkan bagi para Bangsawan, sementara baju dengan motif tumbuhan diperuntukkan bagi rakyat biasa.\"],\"kembali\":\"/provinsi/kalimantan-utara.html\"}");
 
-},{}],"h3mEm":[function(require,module,exports) {
+},{}],"31oFJ":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Rumah Adat Kalimantan Utara\",\"gambar\":\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Baloy_Mayo_Adat_Tidung_%282%29.JPG/800px-Baloy_Mayo_Adat_Tidung_%282%29.JPG\",\"paragraf\":[\"Rumah Baloy merupakan rumah adat Provinsi Kalimantan Utara yang berbahan dasar kayu ulin. Bentuk bangunan rumah adat ini terlihat lebih modern karena merupakan hasil pengembangan arsitektur Dayak dari Rumah adat Kalimantan Timur yaitu Rumah Lamin yang dibuat oleh Masyarakat suku Tidung yang tidak lain adalah suku di Kalimantan Utara. Rumah adat Baloy ini tidak digunakan sebagai tempat tinggal sebagaimana rumah adat Lamin digunakan melainkan sebagai berikut:\",\"<ol>\",\"<li>Tempat untuk melaksanakan kegiatan adat.</li>\",\"<li>Digunakan sebagai tempat tinggal kepala adat</li>\",\"<li>Tepat pertemuan dan musyarawah permasalahan yang berkaitan dengan adat</li>\",\"<li>Tempat menampilkan kesenian suku Tidung</li>\",\"</ol>\",\"Rumah adat Baloy memiliki ciri khas yakni terdapat ukiran laut pada risplang. Ukiran ini berupa kekayaan flora fauna yang berhubungan dengan daerah pesisir, seperti pohon kelapa dan ikan laut. Rumah adat Baloy memiliki filosofi dari tiap-tiap bagiannya diantaranya:\",\"<ol>\",\"<li>Atap Rumah Baloy menggambarkan bahwa masyarakat Suku Tidung adalah masyarakat yang mata pencahariannya adalah nelayan dan pelaut.</li>\",\"<li>Beberapa ruangan dalam Rumah Baloy memiliki fungsi yang berkaitan dengan kehidupan sosial masyaraatnya.</li>\",\"<li>Suku Tidung merupakan masyarakat yang mengutamakan musyawarah dan cinta damai.</li>\",\"</ol>\"],\"kembali\":\"/provinsi/kalimantan-utara.html\"}");
 
-},{}],"28EgK":[function(require,module,exports) {
+},{}],"iDXwz":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Tarian Adat Kalimantan Utara\",\"gambar\":\"https://cdn.statically.io/img/takterlihat.com/f=auto/wp-content/uploads/2020/04/Tarik-Blunde-696x357.jpeg\",\"paragraf\":\"Tari Magunatip atau dikenal juga dengan nama Tari Lalatip merupakan tari adat Kalimantan Utara yang berasal dari daerah Tarakan dan Malinau. Tarian adat ini sangat mendebarkan karena penari bisa terjepit atau terapit kakinya oleh batang kayu bila terlambat menghindar apalagi ketika penari menari dengan ditutup kedua matanya.\",\"kembali\":\"/provinsi/kalimantan-utara.html\"}");
 
-},{}],"5g4py":[function(require,module,exports) {
+},{}],"jkEpG":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Baju Adat Kalimantan Selatan\",\"gambar\":\"https://i0.wp.com/tambahpinter.com/wp-content/uploads/2020/09/Bagajah-Gamuling-Baulur-Lulut.jpg\",\"paragraf\":\"Bagajah Gamuling Baular Lulut merupakan pakaian pengantin Banjar pertama yang dipengaruhi budaya Hindu. Hal ini terlihat dari bentuk busana yang terbuka pada bagian dada. Ciri khas dari pengantin Bagajah Gamuling Baular Lulut yaitu menggunakan mahkota Bagajah Gamuling Baular Lulut yang terbuat dari lingkaran logam bundar.\",\"kembali\":\"/provinsi/kalimantan-selatan.html\"}");
 
-},{}],"lGSqa":[function(require,module,exports) {
+},{}],"fnN8E":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Rumah Adat Kalimantan Selatan\",\"gambar\":\"https://www.getborneo.com/wp-content/uploads/2015/06/rumah-adat-kalimantan-selatan.jpg\",\"paragraf\":\"Rumah Bubungan Tinggi atau Rumah Cacak Burung adalah salah satu jenis rumah Baanjung yaitu rumah tradisional suku Banjar di Kalimantan Selatan dan bisa dibilang merupakan ikonnya Rumah Banjar karena jenis rumah inilah yang paling terkenal karena menjadi maskot rumah adat khas provinsi Kalimantan Selatan. rumah adat Kalimantan Selatan memiliki banyak bentuk yang beda-beda dan wajib Anda ketahui. Suasana tradisional di rumah adat ini memiliki keunikan, sehingga membuat Indonesia semakin kaya akan keberagaman nya. Seperti yang kita ketahui, setiap daerah di Indonesia memiliki pesona alam dan berbeda satu sama lain.\",\"kembali\":\"/provinsi/kalimantan-selatan.html\"}");
 
-},{}],"eCm6I":[function(require,module,exports) {
+},{}],"dhIEp":[function(require,module,exports) {
 module.exports = JSON.parse("{\"judul\":\"Tarian Adat Kalimantan Selatan\",\"gambar\":\"https://cdn.statically.io/img/takterlihat.com/f=auto/wp-content/uploads/2020/04/Tari-Baksa-Kambang-1.jpeg\",\"paragraf\":\"Tarian Baksa Kambang merupakan salah satu jenis tari tradisional khas Suku Banjar yang biasa dipertunjukan dan dipentaskan untuk menyambut tamu-tamu besar dan terhormat di Kalimantan Selatan. Kata “Baksa” sendiri memiliki makna dan arti berupa kelembutan sehingga menjadi filosofi bentuk kelembutan tuan rumah terhadap para tamunya.\",\"kembali\":\"/provinsi/kalimantan-selatan.html\"}");
 
-},{}],"27Pvu":[function() {},{}]},["hTcgM","595d3","bO15o"], "bO15o", "parcelRequire94c2")
+},{}],"huIjU":[function() {},{}]},["6xKIH","jsbKe","e11ev"], "e11ev", "parcelRequire94c2")
 
 //# sourceMappingURL=main.js.map
