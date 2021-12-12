@@ -14,7 +14,7 @@ export default function Footer({style}) {
     ];
 
     return (
-        <footer style={typeof style == "object" ?style:{}} className="flex flex-col sm:flex-row px-8 py-10 mt-3 justify-around items-center bg-gray-800">
+        <footer style={typeof style == "object" ?style:{}} className="flex flex-col sm:flex-row px-8 py-10 justify-around items-center bg-gray-800">
         <div className="flex-1">
             <h1 className="text-white font-bold">Borneo Culture Wiki</h1>
             <span className="text-justify text-sm text-gray-400">

@@ -25,21 +25,22 @@ function getBudaya(data,name) {
 
 export default function Budaya({history}) {
     const data = useSelector(selector => selector);
-    const [budaya, setBudaya] = useState(false);
     const {nama} = useParams();
+    const [budaya, setBudaya] = useState(false);
 
     useEffect(()=>{
-        setBudaya(getBudaya(data, nama));
+        console.log(nama, data);
+        setBudaya(getBudaya(data,nama));
     }, []);
     return budaya ? (<div className="flex flex-col h-screen">
         <Header to={budaya.back} lambang={budaya.logo} history={history}>{budaya.title}</Header>
         <div className="flex-grow">
-            <h1 className="text-xl font-bold title py-5"> {budaya.content.judul} </h1>
+            <h1 className="text-xl font-bold title py-5"> {budaya.content?budaya.content.judul:""} </h1>
             <div>
                 <div style={{textAlign:"center"}}>
-                    <img src={budaya.content.gambar} alt=""/>
+                    <img src={budaya.content?budaya.content.gambar:""} alt=""/>
                 </div>
-                <p dangerouslySetInnerHTML={{__html:budaya.content.paragraf}}></p>
+                <p dangerouslySetInnerHTML={{__html:budaya.content?budaya.content.paragraf:""}}></p>
             </div>
         </div>
         <Footer/>

@@ -13,6 +13,8 @@ import {createBrowserHistory} from 'history';
 import {Provider} from 'react-redux';
 import store from "./store";
 
+import "react-slideshow-image/dist/styles.css";
+
 const history = createBrowserHistory();
 
 let Main = () => {
